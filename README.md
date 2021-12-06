@@ -2,7 +2,7 @@
 ###### This repository contains Python code for different Algorithms and Data Structure concepts. 
 
 ### Contents:
-1. Basics 
+1. [Basics](Basics/README.md)
 2. Recursion and Backtracking
 3. Linked Lists
 4. Stacks
