@@ -16,9 +16,13 @@
 - Algorithms are compared by expressing the running time of a given algorithm as a function of the input - independent of factors such as machine capability, programming style.
 - Rate of growth is defined as the rate at which the running time increases (with input)
 - **Rates of growth** - 
-``` n! > 4n  > 2n  > n2  > nlog(n) > log(n!) > n > 2logn  > log2 n > sqrt(logn) > log(logn) > 1 ```
+``` n! > 4^n  > 2^n  > n^2  > nlog(n) > log(n!) > n > 2^logn  > log^2(n) > sqrt(logn) > log(logn) > 1 ```
 - **Worst Case**: Defines the input for which the algorithm takes the longest time (slowest)
 - **Best Case**: Defines the input for which the algorithm takes the least time (fastest)
 - **Average Case**: Provides a prediction about the running of the algorithm - random input
 - Upper and lower bounds need to be computed for all the 3 aforementioned cases - need notations to represent these bounds.
 - **Big-O Notation** - Gives the tight upper bound for a function. Outputs a function which gives the maximum rate of growth for the input function at larger values of n (input). We usually consider values of input above a given threshold. 
+- **Omega Notation**: Gives the tight lower bound for a given algorithm. 
+- **Theta Notation**: Decides whether the upper and lower bounds are the same for a given algorithm. In this case, best case and worst case are the same - average case will also be the same.
+- The general focus is on the upper bound of an algorithm - Big-O Notation.
+- More information + mathematical induction can be found in the [Basics](/Basics) directory (images).
