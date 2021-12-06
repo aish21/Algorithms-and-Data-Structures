@@ -16,7 +16,7 @@
 - Algorithms are compared by expressing the running time of a given algorithm as a function of the input - independent of factors such as machine capability, programming style.
 - Rate of growth is defined as the rate at which the running time increases (with input)
 - **Rates of growth** - 
-''' n! > 4n  > 2n  > n2  > nlog(n) > log(n!) > n > 2logn  > log2 n > sqrt(logn) > log(logn) > 1 '''
+``` n! > 4n  > 2n  > n2  > nlog(n) > log(n!) > n > 2logn  > log2 n > sqrt(logn) > log(logn) > 1 ```
 - **Worst Case**: Defines the input for which the algorithm takes the longest time (slowest)
 - **Best Case**: Defines the input for which the algorithm takes the least time (fastest)
 - **Average Case**: Provides a prediction about the running of the algorithm - random input
