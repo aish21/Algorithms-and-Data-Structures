@@ -25,4 +25,9 @@
 - **Omega Notation**: Gives the tight lower bound for a given algorithm. 
 - **Theta Notation**: Decides whether the upper and lower bounds are the same for a given algorithm. In this case, best case and worst case are the same - average case will also be the same.
 - The general focus is on the upper bound of an algorithm - Big-O Notation.
+- **Loops:** The running time of a loop is, at most, the running time of the statements inside the loop (including tests) multiplied by the number of iterations
+- **Nested Loops:** Analyse from the inside out. Total running time is the product of the sizes of all the loops
+- **Consecutive Statements:** Add the time complexities of each statement
+- **If-then-else statements:**  Worst case running time: the test, plus either the *then* part or the *else* part (whichever is the larger)
+- **Logarithmic complexity:** An algorithm is O(logn) if it takes a constant time to cut the problem size by a fraction
 - More information + mathematical induction can be found in the [Basics](/Basics) directory (images).
