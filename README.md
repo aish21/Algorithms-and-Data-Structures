@@ -3,7 +3,7 @@
 
 ### Contents:
 1. [Basics](Basics/)
-2. [Recursion and Backtracking](Recursion and Backtracking/)
+2. [Recursion and Backtracking](Recursion and Backtracking/HackerRank/)
 3. Linked Lists
 4. Stacks
 5. Queues
