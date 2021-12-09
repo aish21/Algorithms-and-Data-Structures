@@ -3,7 +3,7 @@
 
 ### Contents:
 1. [Basics](Basics/)
-2. Arrays and Strings
+2. [Arrays and Strings](ArraysandStrings/)
 3. [Recursion and Backtracking](RecursionandBacktracking/)
 4. Linked Lists
 5. Stacks
