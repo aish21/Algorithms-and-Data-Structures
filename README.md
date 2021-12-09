@@ -3,20 +3,21 @@
 
 ### Contents:
 1. [Basics](Basics/)
-2. [Recursion and Backtracking](RecursionandBacktracking/)
-3. Linked Lists
-4. Stacks
-5. Queues
-6. Trees
-7. Priority Queues and Heaps
-8. Disjoint Sets ADT
-9. Graph Algorithms
-10. Sorting 
-11. Searching
-12. Selection Algorithms
-13. Hashing
-14. Algorithmic Design
-15. Greedy Algorithms
-16. Divide and Conquer
-17. Dynamic Programming
-18. Miscellaneous
+2. Arrays and Strings
+3. [Recursion and Backtracking](RecursionandBacktracking/)
+4. Linked Lists
+5. Stacks
+6. Queues
+7. Trees
+8. Priority Queues and Heaps
+9. Disjoint Sets ADT
+10. Graph Algorithms
+11. Sorting 
+12. Searching
+13. Selection Algorithms
+14. Hashing
+15. Algorithmic Design
+16. Greedy Algorithms
+17. Divide and Conquer
+18. Dynamic Programming
+19. Miscellaneous
