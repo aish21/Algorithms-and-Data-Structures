@@ -1,22 +1,8 @@
-# Algorithms-and-Data-Structures
-###### This repository contains Python code for different Algorithms and Data Structure concepts. 
+# Arrays and Strings
+###### This section covers basic arrays and strings concepts. 
 
-### Contents:
-1. [Basics](Basics/)
-2. [Recursion and Backtracking](Recursion and Backtracking/HackerRank/)
-3. Linked Lists
-4. Stacks
-5. Queues
-6. Trees
-7. Priority Queues and Heaps
-8. Disjoint Sets ADT
-9. Graph Algorithms
-10. Sorting 
-11. Searching
-12. Selection Algorithms
-13. Hashing
-14. Algorithmic Design
-15. Greedy Algorithms
-16. Divide and Conquer
-17. Dynamic Programming
-18. Miscellaneous
+- An **array** is a basic data structure to store a collection of elements sequentially. These elements, however, can be accessed randomly via index values of the elements in arrays.
+- Arrays can have one (linear) or more dimensions
+- Index values start from 0
+- An array has a fixed capacity, need to specify size during intialization - difficult to initialise
+- Use of **dynamic arrays** - arrays with variable size
