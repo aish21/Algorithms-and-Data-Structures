@@ -7,12 +7,12 @@ Return the leftmost pivot index. If no such index exists, return -1.
 '''
 
 def pivotIndex(self, nums: List[int]) -> int:
-        leftSum = 0
-        rightSum = sum(nums)
-        for i in range(len(nums)):
-            rightSum -= nums[i]
-            if leftSum == rightSum:
-                return i
-            leftSum += nums[i]
+    leftSum = 0
+    rightSum = sum(nums)
+    for i in range(len(nums)):
+        rightSum -= nums[i]
+        if leftSum == rightSum:
+            return i
+        leftSum += nums[i]
         
-        return -1
+    return -1
