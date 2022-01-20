@@ -15,4 +15,5 @@
 - **Undirected Graphs** - The edges between any two vertices in an undirected graph do not have a direction, indicating a two-way relationship.
 - **Directed Graphs** - The edges between any two vertices in a directed graph are directional.
 - **Weighted Graphs** - Each edge in a weighted graph has an associated weight, which can be of any metric.
-- 
+
+### Disjoint Sets
