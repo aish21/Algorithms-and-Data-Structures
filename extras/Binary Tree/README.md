@@ -1,5 +1,5 @@
 # Binary Trees
-###### This section covers basic binary tree concepts. 
+###### This section covers basic binary tree concepts -  
 
 - A **tree** is a data structure that represents hierarchical information. 
 - Each node has a root node and references to other nodes, which are child nodes. 
