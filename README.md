@@ -56,6 +56,6 @@
     - At the end of the first iteration, the largest element will be at the end, the second largest will be at the n - 1 position
     - Outer loop is to loop n times and inner loop is for swapping
     - In place sorting
-    - ![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+    - ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
     - Worst Case: O(n<sup>2</sup>)
     - Best Case: O(n)
