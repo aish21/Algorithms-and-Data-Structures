@@ -49,13 +49,14 @@
     - Theta - For a function f(n) is equal to Ø(n) if a function f(n) is greater than C1 g(n) and is less than C2g(n) for all n>= 0. It means that the function f(n) will always be in-between C1*g(n) and C2*g(n). It can be shown in formula as :  C1*g(n) <= f(n) <= C2*g(n) (Average Case)
 
 ## Sorting Algorithms
-* Bubble Sort - 
+* [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
     - Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
     - Use of 2 loops - outer and inner 
     - Each element is compared to its adjacent element - if current is greater, then we swap them
     - At the end of the first iteration, the largest element will be at the end, the second largest will be at the n - 1 position
     - Outer loop is to loop n times and inner loop is for swapping
     - In place sorting
-    - ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
     - Worst Case: O(n<sup>2</sup>)
     - Best Case: O(n)
+* 
