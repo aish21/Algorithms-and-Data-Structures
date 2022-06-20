@@ -67,7 +67,7 @@
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
 
-* Selection Sort - 
+* [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) - 
     - Selection Sort is a sorting technique where the smallest element is taken from the array and placed at the first index - this is repeated for the remaining elements. 
     - Get the smallest element from the array, exchange it with the first index element
     - Second smallest element swap with second index position, and so forth 
