@@ -75,3 +75,25 @@
     - Best, Worst Case: O(n<sup>2</sup>)
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
+
+* [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) - 
+    - Insertion Sort is an efficient algorithm for sorting a small number of elements.
+    - In-place sorting - rearranges the elements in place.
+    - Keys: Numbers that we wish to sort
+    - Divide array into sorted and unsorted elements, select first unsorted element (key), swap the sorted elements to the right to create the correct position and shift the unsorted element (key), advance marker to right (next key)
+    - Best Case: O(n)
+    - Worst Case: O(n<sup>2</sup>)
+    
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
+
+* Merge Sort - 
+    - Based on the divide and conquer strategy
+    - Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
+    - Conquer: Sort the left part and right part of the array recursively
+    - Combine: Combine the left and right arrays to form one complete, sorted array
+    - External Sorting, Stable
+    - Best Case, Worst Case and Average Case: O(nlogn)
+
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
+    
+    
