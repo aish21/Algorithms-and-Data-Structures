@@ -8,7 +8,7 @@
 
 <p align="center">
     <a href="#introduction-to-data-structures">Introduction to Data Structures</a> •
-    <a href="#introduction-to-algorithms">Introduction to Algorithms (Complexity Analysis)</a> •
+    <a href="#introduction-to-algorithms">Introduction to Algorithms</a> •
     <a href="#sorting-algorithms">Sorting Algorithms</a> •
     <a href="#search-algorithms">Search Algorithms</a> •
     <a href="#trees">Trees</a> •
@@ -29,7 +29,7 @@
 * test
 
 
-## Introduction to Algorithms (Complexity Analysis)
+## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
     - Different algorithms aid in solving problems in an efficient manner.
