@@ -86,7 +86,7 @@
     
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
 
-* Merge Sort - 
+* [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py) - 
     - Based on the divide and conquer strategy
     - Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
     - Conquer: Sort the left part and right part of the array recursively
@@ -95,5 +95,5 @@
     - Best Case, Worst Case and Average Case: O(nlogn)
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
-    
+
     
