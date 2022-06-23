@@ -15,6 +15,20 @@
     <a href="#graphs">Graphs</a> •
 </p>
 
+## Introduction to Data Structures
+<p align="center">
+    <a href="#basics">Basics</a> •
+    <a href="#stack">Stacks</a> •
+    <a href="#queues">Queues</a> •
+    <a href="#linked-list">Linked List</a> •
+    <a href="#hash-tables">Hash Tables</a> •
+    <a href="#heaps">Heaps</a>
+</p>
+
+### Basics
+* test
+
+
 ## Introduction to Algorithms (Complexity Analysis)
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
