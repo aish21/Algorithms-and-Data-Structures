@@ -42,6 +42,7 @@
     - Graphs: Each node is called a vertex and vertices are connected to each other via edges.
     - Trees: Similar to graphs, but there can only be one edge between two vertices.
 
+<p align="center">
 | Linear Data Structures | Non-Linear Data Structures |
 | :--------------------: | :-------------------------:| 
 | Sequential             | Non-Sequential             | 
@@ -49,7 +50,7 @@
 | Traversed in a single run | Requires multiple runs | 
 | Inefficient memory utilization | Relatively efficient memory utilization |
 | Time complexity increases with data | Time complexity remains the same | 
-
+</p>
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
