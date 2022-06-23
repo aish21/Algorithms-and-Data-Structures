@@ -7,12 +7,12 @@
 <h4 align="center">My notes on concepts covering algorithms and data structures</h4>
 
 <p align="center">
-  <a href="#Introduction">Introduction to Algorithms (Complexity Analysis)</a> •
-  <a href="#Sorting">Sorting Algorithms</a> •
-  <a href="#Searching">Search Algorithms</a> •
-  <a href="#Data-Structures">Introduction to Data Structures</a> •
-  <a href="#Trees">Trees</a> •
-  <a href="#Graphs">Graphs</a> •
+    <a href="#introduction-to-data-structures">Introduction to Data Structures</a> •
+    <a href="#introduction-to-algorithms">Introduction to Algorithms (Complexity Analysis)</a> •
+    <a href="#sorting-algorithms">Sorting Algorithms</a> •
+    <a href="#search-algorithms">Search Algorithms</a> •
+    <a href="#trees">Trees</a> •
+    <a href="#graphs">Graphs</a> •
 </p>
 
 ## Introduction to Algorithms (Complexity Analysis)
