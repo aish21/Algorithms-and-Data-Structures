@@ -18,7 +18,7 @@
 ## Introduction to Data Structures
 <p align="center">
     <a href="#basics">Basics</a> •
-    <a href="#stack">Stacks</a> •
+    <a href="#stacks">Stacks</a> •
     <a href="#queues">Queues</a> •
     <a href="#linked-list">Linked List</a> •
     <a href="#hash-tables">Hash Tables</a> •
@@ -50,6 +50,13 @@
 | Inefficient memory utilization | Relatively efficient memory utilization |
 | Time complexity increases with data | Time complexity remains the same | 
 
+### Stacks
+* Linear Data Structure that follows the principle of LIFO - Last In First Out.
+* Putting an item on top of the stack is known as 'push' and removing an item is known as 'pop'.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/PUSH-POP.png)
+
+* 
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
