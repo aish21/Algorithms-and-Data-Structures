@@ -50,13 +50,25 @@
 | Inefficient memory utilization | Relatively efficient memory utilization |
 | Time complexity increases with data | Time complexity remains the same | 
 
-### Stacks
+### [Stacks](/Practice%20Concepts/Data%20Structures/stacks.py)
 * Linear Data Structure that follows the principle of LIFO - Last In First Out.
 * Putting an item on top of the stack is known as 'push' and removing an item is known as 'pop'.
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/PUSH-POP.png)
 
-* 
+* PUSH: Add an element to the top of the stack
+* POP: Remove an element from the top of the stack
+* IsEmpty: Check if the stack is empty           
+* IsFull: Check if the stack is full 
+* PEEK: Check the value of the top element in the stack without removing it
+* Working of stacks - 
+    - Pointer variable TOP: keep track of the top element in the stack
+    - Stack initialization, TOP is set to -1. It is then compared back to -1 to check if it is empty as well.
+    - During PUSH, increment the value of TOP by 1 and place the element at the index of the value pointed by TOP.
+    - During POP, return the value of TOP first (element at that index) and then decrease the value of TOP by 1.
+    - Before pushing, check if the stack is full and before popping check if the stack is empty.
+* PUSH and POP operations take constant time - O(1).
+* Stack Applications: String reversals, compilers, browser (saving previously visited URLs)
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
