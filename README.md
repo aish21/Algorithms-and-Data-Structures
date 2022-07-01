@@ -70,7 +70,7 @@
 * PUSH and POP operations take constant time - O(1).
 * Stack Applications: String reversals, compilers, browser (saving previously visited URLs)
 
-### Queues
+### [Queues](/Practice%20Concepts/Data%20Structures/Queue.py)
 * Linear data structure that follows FIFO - First In First Out rule - the item that goes in first comes out first
 * Putting items in queue is known as enqueue and removing items from queue is known as dequeue.
 
