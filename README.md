@@ -70,6 +70,27 @@
 * PUSH and POP operations take constant time - O(1).
 * Stack Applications: String reversals, compilers, browser (saving previously visited URLs)
 
+### Queues
+* Linear data structure that follows FIFO - First In First Out rule - the item that goes in first comes out first
+* Putting items in queue is known as enqueue and removing items from queue is known as dequeue.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/enq-dq.png)
+
+* ENQUEUE: Add an element at the end of the queue
+* DEQUEUE: Remove an element from the front of the queue
+* IsEmpty: Check if the queue is empty
+* IsFull: Check if the queue is full
+* PEEK: Check the value of the first element in the queue without removing it
+* Queue Operations - 
+    - Pointer variables: FRONT and REAR (first element and last element tracked respectively)
+    - Initially both values are -1 
+    - ENQUEUE - Check if the queue is full, for first value, set FRONT = 0, increment REAR by 1, add the element pointed to by the REAR pointer
+    - DEQUEUE - Check of the queue is empty, return the value pointed by FRONT, increment FRONT by 1, for final value, reset FRONT and REAR to -1.
+* Limitations: We can only add to index 0 after all the elements have been dequeued (see circular queue)
+* ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
+* Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
+
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
