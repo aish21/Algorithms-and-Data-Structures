@@ -90,7 +90,7 @@
 * ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
 * Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
 * Types of Queues:
-    - Circular Queue
+    - [Circular Queue](/Practice%20Concepts/Data%20Structures/CircularQ.py)
         - Like regular queue, but the last element is connected to the first element, solving the limitation stated earlier (non-usable empty space).
         - Works in the process of circular increment - modulo division with the queue size
         - Same initialization of FRONT and REAR pointer variables
