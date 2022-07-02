@@ -89,6 +89,9 @@
 * Limitations: We can only add to index 0 after all the elements have been dequeued (see circular queue)
 * ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
 * Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
+* Types of Queues:
+1. Circular Queue - 
+    - 
 
 
 ## Introduction to Algorithms
