@@ -89,7 +89,9 @@
 * Limitations: We can only add to index 0 after all the elements have been dequeued (see circular queue)
 * ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
 * Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
+
 * Types of Queues:
+
     - [Circular Queue](/Practice%20Concepts/Data%20Structures/CircularQ.py)
         - Like regular queue, but the last element is connected to the first element, solving the limitation stated earlier (non-usable empty space).
         - Works in the process of circular increment - modulo division with the queue size
@@ -98,7 +100,11 @@
         - DEQUEUE: Return value pointed by FRONT, circularly increase FRONT by 1, for last element, reset the FRONT and REAR values to -1
         - IsFull conditions: FRONT == 0 && REAR == SIZE - 1, FRONT = REAR + 1 
         - Complexity: O(1)
-
+    - Priority Queue (TODO)
+        - Each element is linked with a priority value - served on the basis of their priority.
+        - If elements have the same priority, they are then served according to their order in the queue.
+        - Does not follow FIFO - follows rule of priority
+        - Implemented using binary heap (refer to heap below)
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
