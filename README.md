@@ -110,7 +110,7 @@
     - Deque (Double Ended Queues)
         - TODO
 
-### [Linked List](/Practice%20Concepts/Data%20Structures/Queue.py)
+### [Linked List](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
 * Linear data structure that includes a series of connected nodes - each node stores the data and the address of the next node.
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linked-list.png)
