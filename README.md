@@ -124,6 +124,13 @@
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linked-list-complexity.png)
 
 * Applications - Dynamic memory allocation, stacks and queues, hash tables
+* Linked List operations:
+    - Traversal: Access each element of the linked list
+    - Insertion: Add a new element to the linked list
+    - Deletion: Removes the existing elements from the linked list
+    - Search: Find a node in the linked list
+    - Sort: Sort the nodes of a linked list
+* 
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
