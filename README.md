@@ -85,7 +85,7 @@
     - Pointer variables: FRONT and REAR (first element and last element tracked respectively)
     - Initially both values are -1 
     - ENQUEUE - Check if the queue is full, for first value, set FRONT = 0, increment REAR by 1, add the element pointed to by the REAR pointer
-    - DEQUEUE - Check of the queue is empty, return the value pointed by FRONT, increment FRONT by 1, for final value, reset FRONT and REAR to -1.
+    - DEQUEUE - Check if the queue is empty, return the value pointed by FRONT, increment FRONT by 1, for final value, reset FRONT and REAR to -1.
 * Limitations: We can only add to index 0 after all the elements have been dequeued (see circular queue)
 * ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
 * Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
@@ -100,11 +100,30 @@
         - DEQUEUE: Return value pointed by FRONT, circularly increase FRONT by 1, for last element, reset the FRONT and REAR values to -1
         - IsFull conditions: FRONT == 0 && REAR == SIZE - 1, FRONT = REAR + 1 
         - Complexity: O(1)
+
     - Priority Queue (TODO)
         - Each element is linked with a priority value - served on the basis of their priority.
         - If elements have the same priority, they are then served according to their order in the queue.
         - Does not follow FIFO - follows rule of priority
         - Implemented using binary heap (refer to heap below)
+    
+    - Deque (Double Ended Queues)
+        - TODO
+
+### [Linked List](/Practice%20Concepts/Data%20Structures/Queue.py)
+* Linear data structure that includes a series of connected nodes - each node stores the data and the address of the next node.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linked-list.png)
+
+* HEAD: Address of the first node 
+* Last node identified as the node that points to its next portion as NULL
+* Types of Linked Lists: Singly, Doubly, Circular
+* The power of linked list comes from the ability to break the chain and rejoin it. Doing something similar in an array would have required shifting the positions of all the subsequent elements.
+* Space Complexity: O(n)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linked-list-complexity.png)
+
+* Applications - Dynamic memory allocation, stacks and queues, hash tables
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
