@@ -139,7 +139,46 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/CLL.png)
 
-### [Linked List](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
+### [Hash Table](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
+* Data structure that stores data in key-value pairs - 
+    - Key: Unique integer that is used for indexing the values
+    - Value: Data associated with the Keys
+* In a hash table, the new index is processed using keys, then the element corresponding to that key is stored in the index - Hashing.
+* Hashing is a technique of mapping a large set of arbitrary data to tabular indexes using a hashing function. It allows lookups, updating and retrieval operation to occur in a constant time - O(1), that is it is not dependent on the size of the data
+* Let k = hey and h(x) = hashing function. h(k) will give us a new index to store the element associated with key k. 
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/h(x).png)
+
+* Hash Collision - When the hash function generates the same index for multiple keys. This can be resolved by - 
+    - Collision resolution by chaining:
+        - If the hash function produces the same index for multiple elements, these elements are stored in the same index using a doubly linked list.
+        - If x is the index for multiple elements, then it contains a pointer pointing to the head of the list. If there are no elements, x contains NIL.
+    - Open Addressing: Linear/Quadratic Probing and Double Hashing:
+        -  Open addressing does not store multiple elements into the same slot - each slot is either filled with a single key or left NIL.
+        - Technique 1: Linear Probing:
+            - Collision is resolved by checking the next slot.
+            - h(k, i) = (h′(k) + i) mod m; i is the set of index values and h'(k) is the new hash function.
+            - Value of i is incremented linearly.
+            - Problem: Cluster of adjacent slots filled - all must be traversed when inserting a new element.
+        - Technique 2: Quadratic Probing:
+            - Spacing between the slots is increased
+            - h(k, i) = (h′(k) + c1i + c2i<sup>2</sup>) mod m
+            - c1 and c2 are positive auxiliary constants
+        - Technique 3: Double Hashing:
+            - If a collision occurs after applying a hash function h(k), then another hash function is calculated for finding the next slot
+            - h(k, i) = (h1(k) + ih2(k)) mod m
+
+* Good Hash Functions: May not prevent collisions but can reduce the number of collisions.
+    - Division Method: 
+        - If k is a key and m is the size of the hash table, the hash function h() is calculated as h(k) = k mod m
+        - The value of m must not be the powers of 2 - will always get lower order p bits.
+    - Multiplication Method: 
+        - h(k) = ⌊m(kA mod 1)⌋
+        - kA mod 1 gives the fractional part kA
+        - ⌊ ⌋ gives the floor value
+        - A is any constant. The value of A lies between 0 and 1. But, an optimal choice will be ≈ (√5-1)/2 (Knuth)
+    - Universal Hashing: hash function is chosen at random independent of keys
+
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
