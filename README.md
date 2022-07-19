@@ -130,7 +130,16 @@
     - Deletion: Removes the existing elements from the linked list
     - Search: Find a node in the linked list
     - Sort: Sort the nodes of a linked list
-* 
+
+* Doubly Linked List: Add a pointer to the previous node, therefore can traverse either direction - forward or backward.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/DLL.png)
+
+* Circular Linked List: Last element is linked to the first element, forming a loop. This can be both a doubly linked list or a singly linked list.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/CLL.png)
+
+### [Linked List](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
