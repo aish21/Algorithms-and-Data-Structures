@@ -139,7 +139,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/CLL.png)
 
-### [Hash Tables](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
+### [Hash Tables](/Practice%20Concepts/Data%20Structures/hash-table.py)
 * Data structure that stores data in key-value pairs - 
     - Key: Unique integer that is used for indexing the values
     - Value: Data associated with the Keys
