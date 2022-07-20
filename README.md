@@ -218,6 +218,26 @@
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/post-order-traversal.gif)
 
+### [Binary Tree](/Practice%20Concepts/Trees/tree-traverse.py)
+* Tree data structure in which each parent node can have at most 2 children. Each node contains - data item, address of left child, address of right child.
+    - Full Binary Tree: 
+        - Every parent/internal node has either 2 or no children nodes. 
+
+        ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/full-binary-tree.png)
+
+        - Also known as a proper binary tree
+        - Let i = number of internal nodes
+              n = total number of nodes
+              l = number of leaves
+              λ = number of levels
+        - 
+
+
+
+
+ 
+
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
