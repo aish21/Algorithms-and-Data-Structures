@@ -188,7 +188,7 @@
     <a href="#red-black-tree">Red Black Tree</a>
 </p>
 
-### Introduction to Trees
+### [Introduction to Trees](/Practice%20Concepts/Trees/tree-traverse.py)
 * A non-linear hierarchical data structure that consists of nodes connected via edges.
 * For linear data structures, time complexity increases with data size - trees allow quicker and easier access.
 * Node: An entity that contains a key or value and pointers to its child nodes. The last nodes of each path are known as leaf/external nodes - no link to child node. Nodes with child nodes - internal nodes.
