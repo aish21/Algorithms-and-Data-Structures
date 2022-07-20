@@ -180,6 +180,44 @@
     - Universal Hashing: hash function is chosen at random independent of keys
 
 
+## Trees
+<p align="center">
+    <a href="#introduction-to-trees">Introduction to Trees</a> •
+    <a href="#binary-tree">Binary Tree</a> •
+    <a href="#b-tree">B Tree</a> •
+    <a href="#red-black-tree">Red Black Tree</a>
+</p>
+
+### Introduction to Trees
+* A non-linear hierarchical data structure that consists of nodes connected via edges.
+* For linear data structures, time complexity increases with data size - trees allow quicker and easier access.
+* Node: An entity that contains a key or value and pointers to its child nodes. The last nodes of each path are known as leaf/external nodes - no link to child node. Nodes with child nodes - internal nodes.
+* Edge: Link between any 2 nodes.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/node-edge.png)
+
+* Root: topmost node of a tree.
+* Height (Node): Number of edges from the node to the deepest leaf (longest path from the node to the leaf node)
+* Depth (Node): Number of edges from the root to the node.
+* Height (Tree): Height of the root node.
+* Degree of a Node: Total number of branches of that node
+* Forest: Collection of disjoint trees - by cutting the root of a tree.
+* Tree traversal: visiting every node in the tree. 
+* Use traversal methods that take into account the hierarchical structure of the tree.
+* Every tree is a combination of a node carrying data and 2 subtrees.
+* Types of Traversal: 
+    - Inorder: Visit all the nodes in the left subtree, root node then all the nodes in the right subtree.
+
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/in-order-traversal.gif)
+
+    - Preorder: Visit root node, visit all the nodes in the left subtree, visit all the nodes in the right subtree. 
+
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/pre-order-traversal.gif)
+
+    - Postorder: Visit all the nodes in the left subtree, visit all the nodes in the right subtree, visit the root node.
+
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/post-order-traversal.gif)
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
