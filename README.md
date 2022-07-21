@@ -220,21 +220,29 @@
 
 ### [Binary Tree](/Practice%20Concepts/Trees/binary-tree.py)
 * Tree data structure in which each parent node can have at most 2 children. Each node contains - data item, address of left child, address of right child.
-    - [Full Binary Tree](/Practice%20Concepts/Trees/full-binary-tree.py): 
-        - Every parent/internal node has either 2 or no children nodes. 
+* [Full Binary Tree](/Practice%20Concepts/Trees/full-binary-tree.py): 
+    - Every parent/internal node has either 2 or no children nodes. 
 
-        ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/full-binary-tree.png)
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/full-binary-tree.png)
 
-        - Also known as a proper binary tree
-        - Let i = number of internal nodes |
-              n = total number of nodes |
-              l = number of leaves |
-              λ = number of levels 
-        - Number of leaves = i + 1
-        - n = 2i + 1
-        - l = (n + 1) / 2
-        - i = l – 1
-        - l is at most 2<sup>λ</sup> - 1
+    - Also known as a proper binary tree
+    - Let i = number of internal nodes | n = total number of nodes | l = number of leaves | λ = number of levels 
+    - Number of leaves = i + 1
+    - n = 2i + 1
+    - l = (n + 1) / 2
+    - i = l – 1
+    - l is at most 2<sup>λ</sup> - 1
+
+* [Perfect Binary Tree](/Practice%20Concepts/Trees/perfect-binary-tree.py): 
+    - Every internal node has exactly 2 child nodes and all the leaf nodes are at the same level. 
+
+    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/perfect-binary-tree.png)
+
+    - All internal nodes have a degree of 2 (2 branches)
+    - If a single node has no children, it is a perfect binary tree of height h = 0
+    - If a node has h > 0, it is a perfect binary tree if both of its subtrees are of height h - 1 and are non-overlapping
+
+
 
 
 

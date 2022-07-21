@@ -1,4 +1,4 @@
-# Python implementation of checking for full binary tree
+# Python implementation for checking if full binary tree
 
 class Node:
     def __init__(self, item):
