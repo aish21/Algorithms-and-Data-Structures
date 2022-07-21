@@ -260,6 +260,16 @@
 
     - We can use this tree to find the children and parent of any node
 
+* Degenerate / Pathological Tree - A tree having a single child either left or right
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/dgen.png)
+
+* Skewed Binary Tree - A pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/skew.png)
+
+* 
+
 
 
 
