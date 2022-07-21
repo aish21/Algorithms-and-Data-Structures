@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Algorithms and Data Structure: A Comprehensive Guide
+  Algorithms and Data Structures: A Comprehensive Guide
   <br>
 </h1>
 
@@ -242,7 +242,7 @@
     - If a single node has no children, it is a perfect binary tree of height h = 0
     - If a node has h > 0, it is a perfect binary tree if both of its subtrees are of height h - 1 and are non-overlapping
 
-* [Complete Binary Tree](/Practice%20Concepts/Trees/perfect-binary-tree.py): 
+* [Complete Binary Tree](/Practice%20Concepts/Trees/complete-binary-tree.py): 
     - All levels are completely filled except possibly the lowest one, which is filled from the left.
     - Similar to full binary trees except - 
         1. All the leaf elements must lean towards the left.
