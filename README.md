@@ -268,11 +268,11 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/skew.png)
 
-* 
-
-
-
-
+* [Balanced Binary Tree](/Practice%20Concepts/Trees/complete-binary-tree.py):
+    - Binary tree in which the height of the left and right subtree of any node differ by not more than 1.
+        - difference between the left and the right subtree for any node is not more than one
+        - the left subtree is balanced
+        - the right subtree is balanced
 
 
 
