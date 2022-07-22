@@ -320,6 +320,18 @@
     <a href="#bellman-fords-algorithm">Bellman Ford's Algorithm</a>
 </p>
 
+### Graph Basics
+* A collection of nodes that have data and are connected to other nodes. 
+* A graph is a data structure (V, E) - collection of vertices V, a collection of edges E [represented as ordered pairs of vertices (u,v)]
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/graph.png)
+
+* V = {0, 1, 2, 3} | E = {(0,1), (0,2), (0,3), (1,2)} | G = {V, E}
+* Adjacency: A vertex is said to be adjacent to another vertex if there is an edge connecting them. Vertices 2 and 3 are not adjacent because there is no edge between them.
+* Path: A sequence of edges that allows you to go from vertex A to vertex B. 0-1, 1-2 and 0-2 are paths from vertex 0 to vertex 2.
+* Directed Graph: A graph in which an edge (u,v) doesn't necessarily mean that there is an edge (v, u) as well. The edges in such a graph are represented by arrows to show the direction of the edge.
+* Graph Representations: Adjacency Matrix and Adjacency List
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
