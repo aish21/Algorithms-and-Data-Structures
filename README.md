@@ -8,11 +8,11 @@
 
 <p align="center">
     <a href="#introduction-to-data-structures">Introduction to Data Structures</a> •
+    <a href="#trees">Trees</a> •
+    <a href="#graphs">Graphs</a> •
     <a href="#introduction-to-algorithms">Introduction to Algorithms</a> •
     <a href="#sorting-algorithms">Sorting Algorithms</a> •
     <a href="#search-algorithms">Search Algorithms</a> •
-    <a href="#trees">Trees</a> •
-    <a href="#graphs">Graphs</a> •
 </p>
 
 ## Introduction to Data Structures
@@ -308,6 +308,17 @@
 ### [Red Black Tree](/Practice%20Concepts/Trees/binary-search-tree.py)
 * TODO
 
+## Graphs
+<p align="center">
+    <a href="#graph-basics">Graph Basics</a> •
+    <a href="#spanning-tree">Spanning Tree</a> •
+    <a href="#strongly-connected-components">Strongly Connected Components</a> •
+    <a href="#adjacency-matrix">Adjacency Matrix</a> •
+    <a href="#adjacency-list">Adjacency List</a> •
+    <a href="#dfs-algorithm">DFS Algorithm</a> •
+    <a href="#breadth-first-search">Breadth First Search</a> •
+    <a href="#bellman-fords-algorithm">Bellman Ford's Algorithm</a>
+</p>
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
