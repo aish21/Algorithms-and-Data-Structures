@@ -277,7 +277,7 @@
         - the right subtree is balanced
 
 
-### [Binary Search Tree](/Practice%20Concepts/Trees/binary-tree.py)
+### [Binary Search Tree](/Practice%20Concepts/Trees/binary-search-tree.py)
 * Quickly allows us to maintain a sorted list of numbers
 * It has a maximum of 2 child nodes and can search for a number in O(log(n)) time.
 * How is binary search tree different from a binary tree - 
@@ -295,6 +295,18 @@
         - CASE 1: The node to be deleted is the leaf node - simply delete the node from the tree
         - CASE 2: The node to be deleted has a single child node - replace that node with its child node, remove the child node from its original position
         - CASE 3: The node to be deleted has two children - get the inorder successor of that node, replace the node with the inorder successor, remove the inorder successor from its original position
+* Best Case Time Complexity: O(log(n))
+* Worst Case Time Complexity: O(n)
+* Space Complexity: O(n)
+
+### [AVL Tree](/Practice%20Concepts/Trees/binary-search-tree.py)
+* TODO
+
+### [B Tree](/Practice%20Concepts/Trees/binary-search-tree.py)
+* TODO
+
+### [Red Black Tree](/Practice%20Concepts/Trees/binary-search-tree.py)
+* TODO
 
 
 ## Introduction to Algorithms
