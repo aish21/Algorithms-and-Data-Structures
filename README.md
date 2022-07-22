@@ -332,6 +332,13 @@
 * Directed Graph: A graph in which an edge (u,v) doesn't necessarily mean that there is an edge (v, u) as well. The edges in such a graph are represented by arrows to show the direction of the edge.
 * Graph Representations: Adjacency Matrix and Adjacency List
 
+### Spanning Tree
+* Undirected Graph: Graph in which the edges do not point in any direction - bidirectional
+* Connected Graph: Graph in which there is always a path from a vertex to any other vertex
+* Spanning Tree: Sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
+* The total number of spanning trees with n vertices that can be created from a complete graph is equal to n<sup>(n-2)</sup>
+* A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as possible.
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
