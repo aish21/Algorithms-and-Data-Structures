@@ -184,6 +184,8 @@
 <p align="center">
     <a href="#introduction-to-trees">Introduction to Trees</a> •
     <a href="#binary-tree">Binary Tree</a> •
+    <a href="#binary-search-tree">Binary Search Tree</a> •
+    <a href="#avl-tree">AVL Tree</a> •
     <a href="#b-tree">B Tree</a> •
     <a href="#red-black-tree">Red Black Tree</a>
 </p>
@@ -275,8 +277,24 @@
         - the right subtree is balanced
 
 
+### [Binary Search Tree](/Practice%20Concepts/Trees/binary-tree.py)
+* Quickly allows us to maintain a sorted list of numbers
+* It has a maximum of 2 child nodes and can search for a number in O(log(n)) time.
+* How is binary search tree different from a binary tree - 
+    1. All nodes on the left subtree are lesser than the root node
+    2. All nodes on the right subtree are greater than the root node
+    3. Both subtrees of each node are also BSTs
 
- 
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/bst.png)
+
+* The binary tree on the right isn't a binary search tree because the right subtree of the node "3" contains a value smaller than it.
+* Operations:
+    - SEARCH: If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree. If the value is found in any of the subtrees, it is propagated up so that in the end it is returned, otherwise null is returned.
+    - INSERT: Inserting a value in the correct position is similar to searching. We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there.
+    - DELETION:
+        - CASE 1: The node to be deleted is the leaf node - simply delete the node from the tree
+        - CASE 2: The node to be deleted has a single child node - replace that node with its child node, remove the child node from its original position
+        - CASE 3: The node to be deleted has two children - get the inorder successor of that node, replace the node with the inorder successor, remove the inorder successor from its original position
 
 
 ## Introduction to Algorithms
