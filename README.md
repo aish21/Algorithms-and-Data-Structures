@@ -339,6 +339,18 @@
 * The total number of spanning trees with n vertices that can be created from a complete graph is equal to n<sup>(n-2)</sup>
 * A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as possible.
 
+### Strongly Connected Components
+* Portion of a directed graph in which there is a path from each vertex to another vertex - applicable only on a directed graph.
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/strongly-connected.png)
+
+* Kosaraju's Algorithm:
+    - Based on depth-first search algorithm, implemented twice
+    1. Create an empty stack and do DFS traversal of a graph. In DFS traversal, after calling recursive DFS for adjacent vertices of a vertex, push the vertex to stack.
+    2. Reverse the direction of all arcs to obtain the transposed graph
+    3. One by one pop a vertex from the stack. Perform DFS on this, which prints SCC.
+
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
