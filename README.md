@@ -371,6 +371,18 @@
 * Disadvantages - 
     1. Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
 
+### [DFS Algorithm](/Practice%20Concepts/Graphs/dfs.py)
+* Recursive algorithm for searching all the vertices of a graph or tree.
+* Vertex categorized as visited or not visited
+* The purpose of the algorithm is to mark each vertex as visited while avoiding cycles.
+* Working of DFS - 
+    1. Place any vertex on top of a stack
+    2. Take top item of the stack and add it to the visited list
+    3. Create a list of that vertex's adjacent nodes - Add the ones which aren't in the visited list to the top of the stack.
+    4. Keep repeating 2 and 3 until stack is empty
+* Time complexity - O(V + E), where V is the number of nodes and E is the number of edges.
+* Space complexity - O(V).
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
