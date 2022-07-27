@@ -350,7 +350,7 @@
     2. Reverse the direction of all arcs to obtain the transposed graph
     3. One by one pop a vertex from the stack. Perform DFS on this, which prints SCC.
 
-### [Adjacency Matrix](/Practice%20Concepts/Graphs/scc.py)
+### [Adjacency Matrix](/Practice%20Concepts/Graphs/adj-mat.py)
 * Representing graphs as a matrix of 0s and 1s - boolean value of the matrix indicates if there is a direct path between two vertices.
 * Each cell in the matrix is represented as A(i,j) where i and j are vertices.
 * The value of A(i,j) is either 1 or 0 depending on whether there is an edge from vertex i to vertex j.
