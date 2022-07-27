@@ -363,7 +363,7 @@
     1. The VxV space requirement of the adjacency matrix makes it a memory hog. 
     2. Operations like inEdges and outEdges are expensive when using the adjacency matrix representation.
 
-### [Adjacency List](/Practice%20Concepts/Graphs/adj-mat.py)
+### [Adjacency List](/Practice%20Concepts/Graphs/adj-list.py)
 * Represents a graph as an array of linked lists. The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
 * Advantages - 
     1. Efficient in terms of storage because we only need to store the values for the edges. 
