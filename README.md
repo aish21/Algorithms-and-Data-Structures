@@ -339,7 +339,7 @@
 * The total number of spanning trees with n vertices that can be created from a complete graph is equal to n<sup>(n-2)</sup>
 * A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as possible.
 
-### Strongly Connected Components
+### [Strongly Connected Components](/Practice%20Concepts/Graphs/scc.py)
 * Portion of a directed graph in which there is a path from each vertex to another vertex - applicable only on a directed graph.
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/strongly-connected.png)
@@ -350,6 +350,8 @@
     2. Reverse the direction of all arcs to obtain the transposed graph
     3. One by one pop a vertex from the stack. Perform DFS on this, which prints SCC.
 
+### [Adjacency Matrix](/Practice%20Concepts/Graphs/scc.py)
+* 
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
