@@ -351,7 +351,17 @@
     3. One by one pop a vertex from the stack. Perform DFS on this, which prints SCC.
 
 ### [Adjacency Matrix](/Practice%20Concepts/Graphs/scc.py)
-* 
+* Representing graphs as a matrix of 0s and 1s - boolean value of the matrix indicates if there is a direct path between two vertices.
+* Each cell in the matrix is represented as A(i,j) where i and j are vertices.
+* The value of A(i,j) is either 1 or 0 depending on whether there is an edge from vertex i to vertex j.
+* In case of undirected graphs, the matrix is symmetric about the diagonal because of every edge (i,j), there is also an edge (j,i).
+* Advantages - 
+    1. Basic operations are time efficient - constant time operations
+    2. Even if the graph and the adjacency matrix is sparse, we can represent it using data structures for sparse matrices.
+    3. By performing operations on the adjacent matrix, we can get important insights into the nature of the graph and the relationship between its vertices.
+* Disadvantages - 
+    1. The VxV space requirement of the adjacency matrix makes it a memory hog. 
+    2. Operations like inEdges and outEdges are expensive when using the adjacency matrix representation.
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
