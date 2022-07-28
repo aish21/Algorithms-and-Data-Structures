@@ -13,6 +13,9 @@
     <a href="#introduction-to-algorithms">Introduction to Algorithms</a> •
     <a href="#sorting-algorithms">Sorting Algorithms</a> •
     <a href="#search-algorithms">Search Algorithms</a> •
+    <a href="#greedy-algorithms">Greedy Algorithms</a> •
+    <a href="#dynamic-programming">Dynamic Programming</a> •
+    <a href="#other-algorithms">Other Algorithms</a>
 </p>
 
 ## Introduction to Data Structures
@@ -383,6 +386,8 @@
 * Time complexity - O(V + E), where V is the number of nodes and E is the number of edges.
 * Space complexity - O(V).
 
+### [Breadth First Search](/Practice%20Concepts/Graphs/dfs.py)
+
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
 * Importance of algorithms - 
@@ -423,6 +428,19 @@
     - Theta - For a function f(n) is equal to Ø(n) if a function f(n) is greater than C1 g(n) and is less than C2g(n) for all n>= 0. It means that the function f(n) will always be in-between C1*g(n) and C2*g(n). It can be shown in formula as :  C1*g(n) <= f(n) <= C2*g(n) (Average Case)
 
 ## Sorting Algorithms
+<p align="center">
+    <a href="#bubble-sort">Bubble Sort</a> •
+    <a href="#selection-sort">Selection Sort</a> •
+    <a href="#insertion-sort">Insertion Sort</a> •
+    <a href="#merge-sort">Merge Sort</a> •
+    <a href="#quick-sort">Quick Sort</a> •
+    <a href="#counting-sort">Counting Sort</a> •
+    <a href="#radix-sort">Radix Sort</a> •
+    <a href="#bucket-sort">Bucket Sort</a> •
+    <a href="#heap-sort">Heap Sort</a> •
+    <a href="#shell-sort">Shell Sort</a>
+</p>
+
 * [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
     - Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
     - Use of 2 loops - outer and inner 
@@ -466,4 +484,32 @@
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
 
-    
+
+## Search Algorithms
+<p align="center">
+    <a href="#linear-search">Linear Search</a> •
+    <a href="#binary-search">Binary Search</a>
+</p>
+
+## Greedy Algorithms
+<p align="center">
+    <a href="#introduction-to-greedy-algorithms">Introduction to Greedy Algorithms</a> •
+    <a href="#ford-fulkerson-algorithm">Ford Fulkerson Algorithm</a> •
+    <a href="#dijkstra-algorithm">Dijkstra Algorithm</a> •
+    <a href="#kruskal-algorithm">Kruskal Algorithm</a> •
+    <a href="#prim-algorithm">Prim Algorithm</a> •
+    <a href="#huffman-coding">Huffman Coding</a>
+</p>
+
+## Dynamic Programming
+<p align="center">
+    <a href="#introduction-to-dynamic-progamming">Introduction to Dynamic Programming</a> •
+    <a href="#floyd-warshall-algorithm">Floyd Warshall Algorithm</a> •
+    <a href="#longest-common-sequence">Longest Common Sequence</a>
+</p>
+
+## Other Algorithms
+<p align="center">
+    <a href="#backtracking-algorithm">Backtracking Algorithm</a> •
+    <a href="#rabin-karp-algorithm">Rabin Karp Algorithm</a>
+</p>
