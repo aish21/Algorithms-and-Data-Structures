@@ -431,7 +431,7 @@
     - Outer loop is to loop n times and inner loop is for swapping
     - In place sorting
     - Worst Case: O(n<sup>2</sup>)
-    - Best Case: O(n)
+    - Best Case: O(1) - because an extra variable is used for swapping.
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
 
@@ -441,6 +441,7 @@
     - Second smallest element swap with second index position, and so forth 
     - Need of 2 loops - outer loop iterate all the array elements one by one, inner loop - here the element from the outer loop is checked against all the elements from inner loop. If a smaller element is found, then that element will be replaced with the index of outer loop
     - Best, Worst Case: O(n<sup>2</sup>)
+    - Space Complexity: O(1)
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
 
@@ -451,6 +452,7 @@
     - Divide array into sorted and unsorted elements, select first unsorted element (key), swap the sorted elements to the right to create the correct position and shift the unsorted element (key), advance marker to right (next key)
     - Best Case: O(n)
     - Worst Case: O(n<sup>2</sup>)
+    - Space Complexity: O(1)
     
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
 
