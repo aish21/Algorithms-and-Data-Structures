@@ -453,49 +453,48 @@
     <a href="#shell-sort">Shell Sort</a>
 </p>
 
- ### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
-    - Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
-    - Use of 2 loops - outer and inner 
-    - Each element is compared to its adjacent element - if current is greater, then we swap them
-    - At the end of the first iteration, the largest element will be at the end, the second largest will be at the n - 1 position
-    - Outer loop is to loop n times and inner loop is for swapping
-    - In place sorting
-    - Worst Case: O(n<sup>2</sup>)
-    - Best Case: O(1) - because an extra variable is used for swapping.
+### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
+* Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
+* Use of 2 loops - outer and inner 
+* Each element is compared to its adjacent element - if current is greater, then we swap them
+* At the end of the first iteration, the largest element will be at the end, the second largest will be at the n - 1 position
+* Outer loop is to loop n times and inner loop is for swapping
+* In place sorting
+* Worst Case: O(n<sup>2</sup>)
+* Best Case: O(1) - because an extra variable is used for swapping.
 
-    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
 
 ### [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) - 
-    - Selection Sort is a sorting technique where the smallest element is taken from the array and placed at the first index - this is repeated for the remaining elements. 
-    - Get the smallest element from the array, exchange it with the first index element
-    - Second smallest element swap with second index position, and so forth 
-    - Need of 2 loops - outer loop iterate all the array elements one by one, inner loop - here the element from the outer loop is checked against all the elements from inner loop. If a smaller element is found, then that element will be replaced with the index of outer loop
-    - Best, Worst Case: O(n<sup>2</sup>)
-    - Space Complexity: O(1)
+* Selection Sort is a sorting technique where the smallest element is taken from the array and placed at the first index - this is repeated for the remaining elements. 
+* Get the smallest element from the array, exchange it with the first index element
+* Second smallest element swap with second index position, and so forth 
+* Need of 2 loops - outer loop iterate all the array elements one by one, inner loop - here the element from the outer loop is checked against all the elements from inner loop. If a smaller element is found, then that element will be replaced with the index of outer loop
+* Best, Worst Case: O(n<sup>2</sup>)
+* Space Complexity: O(1)
 
-    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
 
 ### [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) - 
-    - Insertion Sort is an efficient algorithm for sorting a small number of elements.
-    - In-place sorting - rearranges the elements in place.
-    - Keys: Numbers that we wish to sort
-    - Divide array into sorted and unsorted elements, select first unsorted element (key), swap the sorted elements to the right to create the correct position and shift the unsorted element (key), advance marker to right (next key)
-    - Best Case: O(n)
-    - Worst Case: O(n<sup>2</sup>)
-    - Space Complexity: O(1)
-    
-    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
+* Insertion Sort is an efficient algorithm for sorting a small number of elements.
+* In-place sorting - rearranges the elements in place.
+* Keys: Numbers that we wish to sort
+* Divide array into sorted and unsorted elements, select first unsorted element (key), swap the sorted elements to the right to create the correct position and shift the unsorted element (key), advance marker to right (next key)
+* Best Case: O(n)
+* Worst Case: O(n<sup>2</sup>)
+* Space Complexity: O(1)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
 
 ### [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py) - 
-    - Based on the divide and conquer strategy
-    - Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
-    - Conquer: Sort the left part and right part of the array recursively
-    - Combine: Combine the left and right arrays to form one complete, sorted array
-    - External Sorting, Stable
-    - Best Case, Worst Case and Average Case: O(nlogn)
+* Based on the divide and conquer strategy
+* Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
+* Conquer: Sort the left part and right part of the array recursively
+* Combine: Combine the left and right arrays to form one complete, sorted array
+* External Sorting, Stable
+* Best Case, Worst Case and Average Case: O(nlogn)
 
-    ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
-
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
 
 ## Search Algorithms
 <p align="center">
