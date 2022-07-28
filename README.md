@@ -387,6 +387,17 @@
 * Space complexity - O(V).
 
 ### [Breadth First Search](/Practice%20Concepts/Graphs/dfs.py)
+* Recursive algorithm for searching all the vertices of a graph or tree data structure.
+* The algorithm works as follows:
+    1. Start by putting any one of the graph's vertices at the back of a queue.
+    2. Take the front item of the queue and add it to the visited list
+    3. Create a list of that vertex's adjacent nodes - add the ones which aren't in the visited list to the back of the queue.
+    4. Keep repeating steps 2 and 3 until the queue is empty.
+
+* The graph might have two different disconnected parts
+* Time complexity - O(V + E), where V is the number of nodes and E is the number of edges.
+* Space complexity - O(V).
+
 
 ## Introduction to Algorithms
 * Algorithms - Finite steps/instructions followed to solve a computational problem in an efficient manner.
