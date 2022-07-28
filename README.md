@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">My notes on concepts covering algorithms and data structures</h4>
+<h4 align="center">My notes on concepts covering algorithms and data structures, as well as solved Leetcode problems</h4>
 
 <p align="center">
     <a href="#introduction-to-data-structures">Introduction to Data Structures</a> •
@@ -15,7 +15,8 @@
     <a href="#search-algorithms">Search Algorithms</a> •
     <a href="#greedy-algorithms">Greedy Algorithms</a> •
     <a href="#dynamic-programming">Dynamic Programming</a> •
-    <a href="#other-algorithms">Other Algorithms</a>
+    <a href="#other-algorithms">Other Algorithms</a> •
+    <a href="#leetcode-explanation">Leetcode Explanation</a>
 </p>
 
 ## Introduction to Data Structures
@@ -386,7 +387,7 @@
 * Time complexity - O(V + E), where V is the number of nodes and E is the number of edges.
 * Space complexity - O(V).
 
-### [Breadth First Search](/Practice%20Concepts/Graphs/dfs.py)
+### [Breadth First Search](/Practice%20Concepts/Graphs/bfs.py)
 * Recursive algorithm for searching all the vertices of a graph or tree data structure.
 * The algorithm works as follows:
     1. Start by putting any one of the graph's vertices at the back of a queue.
@@ -452,7 +453,7 @@
     <a href="#shell-sort">Shell Sort</a>
 </p>
 
-* [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
+ ### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
     - Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
     - Use of 2 loops - outer and inner 
     - Each element is compared to its adjacent element - if current is greater, then we swap them
@@ -464,7 +465,7 @@
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
 
-* [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) - 
+### [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) - 
     - Selection Sort is a sorting technique where the smallest element is taken from the array and placed at the first index - this is repeated for the remaining elements. 
     - Get the smallest element from the array, exchange it with the first index element
     - Second smallest element swap with second index position, and so forth 
@@ -474,7 +475,7 @@
 
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
 
-* [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) - 
+### [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) - 
     - Insertion Sort is an efficient algorithm for sorting a small number of elements.
     - In-place sorting - rearranges the elements in place.
     - Keys: Numbers that we wish to sort
@@ -485,7 +486,7 @@
     
     ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
 
-* [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py) - 
+### [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py) - 
     - Based on the divide and conquer strategy
     - Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
     - Conquer: Sort the left part and right part of the array recursively
@@ -524,3 +525,21 @@
     <a href="#backtracking-algorithm">Backtracking Algorithm</a> •
     <a href="#rabin-karp-algorithm">Rabin Karp Algorithm</a>
 </p>
+
+## Leetcode Explanation
+<p align="center">
+    <a href="#easy-problems">Easy Problems</a> •
+    <a href="#medium-problems">Medium Problems</a> •
+    <a href="#hard-problems">Hard Problems</a>
+</p>
+
+### [Easy Problems](/Leetcode%20Problems/Easy)
+* 
+
+
+### [Medium Problems](/Leetcode%20Problems/Medium)
+*
+
+
+### [Hard Problems](/Leetcode%20Problems/Hard)
+*
