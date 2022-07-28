@@ -533,12 +533,20 @@
 </p>
 
 ### [Easy Problems](/Leetcode%20Problems/Easy)
-* 
-
+* [13 - Roman to Integer](/Leetcode%20Problems/Easy/13-Roman-to-Integer.py)
+    - Concepts: Strings, Maps
+    - Need to create a dictionary to map the symbols to the values
+    - Move from right to left of the given string
+    - If the value is greater, add to the result (I + I = 2)
+    - If the value is lesser, subtract (for IV = 4)
 
 ### [Medium Problems](/Leetcode%20Problems/Medium)
-*
-
-
+* [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
+    - Concepts: Strings, Stacks
+    - Create a stack to keep note of initial paranthesis - (
+    - If ) is found and stack is empty, add the index to the set for indexes to be removed, else pop the index in stack (since we have a valid parenthesis)
+    - Combine the index to be removed set and the indexes stored in the stack
+    - Result is all the values except the combined index values
+    
 ### [Hard Problems](/Leetcode%20Problems/Hard)
 *
