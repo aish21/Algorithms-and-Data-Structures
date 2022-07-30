@@ -587,8 +587,27 @@
 * Method:
     - Start from the first element and compare it with each element in the array
     - Return the index if there is a match
+* Time Complexity - O(n) 
+* Space Complexity - O(1)
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linear.gif)
+
+### [Binary Search](/Practice%20Concepts/Search/binary-search.py)
+* Searching algorithm for finding an element's position in a sorted array
+* Element is always searched in the middle of a portion of an array
+* Method:
+    - Set two pointers low and high at the lowest and the highest positions respectively
+    - Find the middle element of the array
+    - If x > middle element, compare x with the middle element of the elements on the right side of middle element. This is done by setting low to low = middle element + 1
+    - Else, compare x with the middle element of the elements on the left side of middle element. This is done by setting high to high = middle element - 1
+    - Repeat steps 3 to 6 until low meets high.
+* Time Complexity: 
+    - Best: O(1)
+    - Average: O(log(n))
+    - Worst: O(log(n)) 
+* Space Complexity - O(1)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/binary.gif)
 
 ## Greedy Algorithms
 <p align="center">
