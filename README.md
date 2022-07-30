@@ -530,7 +530,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/counting-sort.gif)
 
-### [Radix Sort](/Practice%20Concepts/Sorting/counting-sort.py)
+### [Radix Sort](/Practice%20Concepts/Sorting/radix-sort.py)
 * Sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order.
 * Method:
     - Find the largest element in the array
@@ -540,6 +540,22 @@
 * Space Complexity - O(max)
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/radix-sort.gif)
+
+### [Bucket Sort](/Practice%20Concepts/Sorting/bucket-sort.py)
+* Sorting algorithm that divides the unsorted array elements into several groups (buckets)
+* Each bucket is then sorted by using any of the suitable sorting algorithms or recursively applying the same bucket algorithm
+* Method:
+    - Create an array of size n. Each slot of this array is used as a bucket for storing elements.
+    - Insert elements into the buckets from the array. The elements are inserted according to the range of the bucket.
+    - The elements of each bucket are sorted using any of the stable sorting algorithms
+    - The elements from each bucket are gathered
+* Time Complexity: 
+    - Best: O(n + k)
+    - Average: O(n)
+    - Worst: O(n<sup>2</sup>) 
+* Space Complexity - O(n + k)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/bucket.webp)
 
 ## Search Algorithms
 <p align="center">
