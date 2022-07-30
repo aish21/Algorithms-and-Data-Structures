@@ -449,8 +449,7 @@
     <a href="#counting-sort">Counting Sort</a> •
     <a href="#radix-sort">Radix Sort</a> •
     <a href="#bucket-sort">Bucket Sort</a> •
-    <a href="#heap-sort">Heap Sort</a> •
-    <a href="#shell-sort">Shell Sort</a>
+    <a href="#heap-sort">Heap Sort</a>
 </p>
 
 ### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) 
@@ -582,6 +581,14 @@
     <a href="#linear-search">Linear Search</a> •
     <a href="#binary-search">Binary Search</a>
 </p>
+
+### [Linear Search](/Practice%20Concepts/Search/linear-search.py)
+* Sequential searching algorithm where we start from one end and check every element of the list until the desired element is found.
+* Method:
+    - Start from the first element and compare it with each element in the array
+    - Return the index if there is a match
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/linear.gif)
 
 ## Greedy Algorithms
 <p align="center">
