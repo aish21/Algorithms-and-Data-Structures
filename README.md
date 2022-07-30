@@ -515,7 +515,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/quicksort.gif)
 
-### [Counting Sort](/Practice%20Concepts/Sorting/quick-sort.py)
+### [Counting Sort](/Practice%20Concepts/Sorting/counting-sort.py)
 * Sorts the elements of an array by counting the number of occurances of each unique element in the array.
 * The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
 * Method:
