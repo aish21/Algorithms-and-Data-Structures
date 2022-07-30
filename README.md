@@ -557,6 +557,26 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/bucket.webp)
 
+### [Heap Sort](/Practice%20Concepts/Sorting/heap-sort.py)
+* Heap sort works by visualizing the elements of the array as a special kind of complete binary tree called a heap.
+* If the index of any element in the array is i, the element in the index 2i+1 will become the left child and element in 2i+2 index will become the right child. Also, the parent of any element at index i is given by the lower bound of (i-1)/2
+* A binary tree is said to follow a heap data structure if - it is a complete binary tree and all nodes in the tree follow the property that they are greater than their children - the largest element is at the root and both its children and smaller than the root and so on. Such a heap is called a max-heap. If instead, all nodes are smaller than their children, it is called a min-heap
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/min-max-heap.png)
+
+* Starting from a complete binary tree, we can modify it to become a Max-Heap by running a function called heapify on all the non-leaf elements of the heap.
+* To maintain the max-heap property in a tree where both sub-trees are max-heaps, we need to run heapify on the root element repeatedly until it is larger than its children or it becomes a leaf node.
+* Heap Sort Method:
+    - Since the tree satisfies Max-Heap property, then the largest item is stored at the root node.
+    - Swap: Remove the root element and put at the end of the array (nth position) Put the last item of the tree (heap) at the vacant place
+    - Remove: Reduce the size of the heap by 1
+    - Heapify: Heapify the root element again so that we have the highest element at root
+    - Repeat this process
+* Time Complexity - O(nlog(n)) 
+* Space Complexity - O(1)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/heapsort.gif)
+
 ## Search Algorithms
 <p align="center">
     <a href="#linear-search">Linear Search</a> •
