@@ -26,7 +26,7 @@ def countingsort(array):
     for i in range(0, size):
         array[i] = output[i]
 
-
+# Driver Code
 data = [4, 2, 2, 8, 3, 3, 1]
 countingsort(data)
 print("Sorted Array in Ascending Order: ")
