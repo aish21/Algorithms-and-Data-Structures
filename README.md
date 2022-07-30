@@ -496,7 +496,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
 
-### [Quick Sort](/Practice%20Concepts/Sorting/merge-sort.py)
+### [Quick Sort](/Practice%20Concepts/Sorting/quick-sort.py)
 * Based on the Divide and Conquer strategy
 * Method:
     1. Select the pivot element: Different variations have different methods of picking the pivot elements. The most basic one picks the right-most element as the pivot element. 
@@ -515,6 +515,20 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/quicksort.gif)
 
+### [Counting Sort](/Practice%20Concepts/Sorting/quick-sort.py)
+* Sorts the elements of an array by counting the number of occurances of each unique element in the array.
+* The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
+* Method:
+    - Find out the maximum element
+    - Initialize an array of length max+1 with all elements 0. This array is used for storing the count of the elements in the array.
+    - Store the count of each element at their respective index in the 'count' array
+    - Store cumulative sum of the elements of the count array. It helps in placing the elements into the correct index of the sorted array.
+    - Find the index of each element of the original array in the count array. This gives the cumulative count. 
+    - After placing each element at its correct position, decrease its count by one
+* Time Complexity - Best, Average and Worst: O(n + k) - There are mainly four main loops
+* Space Complexity - O(max)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/counting-sort.gif)
 
 ## Search Algorithms
 <p align="center">
