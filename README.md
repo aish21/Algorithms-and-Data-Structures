@@ -453,7 +453,7 @@
     <a href="#shell-sort">Shell Sort</a>
 </p>
 
-### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) - 
+### [Bubble Sort](/Practice%20Concepts/Sorting/bubble-sort.py) 
 * Bubble Sort will sort by checking if the next element is greater than the present element - if greater then it will swap the elements.
 * Use of 2 loops - outer and inner 
 * Each element is compared to its adjacent element - if current is greater, then we swap them
@@ -465,7 +465,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Bubble-sort.gif)
 
-### [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) - 
+### [Selection Sort](/Practice%20Concepts/Sorting/selection-sort.py) 
 * Selection Sort is a sorting technique where the smallest element is taken from the array and placed at the first index - this is repeated for the remaining elements. 
 * Get the smallest element from the array, exchange it with the first index element
 * Second smallest element swap with second index position, and so forth 
@@ -475,7 +475,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Selection-Sort.gif)
 
-### [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) - 
+### [Insertion Sort](/Practice%20Concepts/Sorting/insertion-sort.py) 
 * Insertion Sort is an efficient algorithm for sorting a small number of elements.
 * In-place sorting - rearranges the elements in place.
 * Keys: Numbers that we wish to sort
@@ -486,7 +486,7 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Insertion-Sort.gif)
 
-### [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py) - 
+### [Merge Sort](/Practice%20Concepts/Sorting/merge-sort.py)
 * Based on the divide and conquer strategy
 * Divide: Divide the array into half, and continue to do so with the resultant arrays until only single elements are left
 * Conquer: Sort the left part and right part of the array recursively
@@ -495,6 +495,26 @@
 * Best Case, Worst Case and Average Case: O(nlogn)
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/Merge-Sort.gif)
+
+### [Quick Sort](/Practice%20Concepts/Sorting/merge-sort.py)
+* Based on the Divide and Conquer strategy
+* Method:
+    1. Select the pivot element: Different variations have different methods of picking the pivot elements. The most basic one picks the right-most element as the pivot element. 
+    2. Rearrange the array: Arranged in the manner so that the elements smaller than the pivot are to the left whereas the elements larger than the pivot are stored on the right. 
+        - Pointer fixed at the pivot element. This is compared with the element starting from the first index
+        - Second pointer set for the element if it is larger than the pivot
+        - Pivot is compared with other elements - If an element smaller than the pivot element is reached, the smaller element is swapped with the greater element found earlier.
+        - Process is repeated to set the next greater element as the second pointer. And, swap it with another smaller element.
+        - The process goes on until the second last element is reached
+        - Pivot swapped with the new second pointer.
+    3. Divide the subarrays - Pivot elements are again chosen for the left and the right sub-parts separately. And, step 2 is repeated. The subarrays are divided until each subarray is formed of a single element.
+* Time complexity: 
+    - Best, Average: O(nlog(n))
+    - Worst: O(n<sup>2</sup>)
+* Space Complexity: O(log(n))
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/quicksort.gif)
+
 
 ## Search Algorithms
 <p align="center">
