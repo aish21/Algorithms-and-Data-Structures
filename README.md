@@ -530,6 +530,17 @@
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/counting-sort.gif)
 
+### [Radix Sort](/Practice%20Concepts/Sorting/counting-sort.py)
+* Sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order.
+* Method:
+    - Find the largest element in the array
+    - Find the number of digits of the largest element - calculated because we have to go through all the significant places of all elements.
+    - Go through each significant place one by one
+* Time Complexity - Best, Average and Worst: O(n + k) 
+* Space Complexity - O(max)
+
+![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/radix-sort.gif)
+
 ## Search Algorithms
 <p align="center">
     <a href="#linear-search">Linear Search</a> •
