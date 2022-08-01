@@ -632,6 +632,17 @@
     - If the solution set is feasible, the current item is kept
     - Else, the item is rejected and never considered again
 
+### Ford Fulkerson Algorithm
+* Calculating the maximum possible flow in a network or a graph
+* Flow network - Used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
+* Augmenting Path: Path available in a flow network 
+* Residual Graph: Represents the flow network that has additional possible flow
+* Residual Capacity: Capacity of the edge after subtracting the flow from the maximum capacity
+    - Initialize the flow in all the edges to 0
+    - While there is an augmenting path between the source and the sink, add this path to the flow
+    - Update the residual graph (Also note reverse-path if required because if we do not consider them, we may never find a maximum flow)
+    - If the capacity for any edge is full, then that path cannot be used.
+
 ## Dynamic Programming
 <p align="center">
     <a href="#introduction-to-dynamic-progamming">Introduction to Dynamic Programming</a> •
