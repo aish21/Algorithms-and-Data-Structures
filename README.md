@@ -632,7 +632,7 @@
     - If the solution set is feasible, the current item is kept
     - Else, the item is rejected and never considered again
 
-### Ford Fulkerson Algorithm
+### [Ford Fulkerson Algorithm](/Practice%20Concepts/Greedy%20Algorithms/ffa.py)
 * Calculating the maximum possible flow in a network or a graph
 * Flow network - Used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
 * Augmenting Path: Path available in a flow network 
@@ -642,6 +642,12 @@
     - While there is an augmenting path between the source and the sink, add this path to the flow
     - Update the residual graph (Also note reverse-path if required because if we do not consider them, we may never find a maximum flow)
     - If the capacity for any edge is full, then that path cannot be used.
+
+### Dijkstra Algorithm
+* Allows us to find the shortest path between any two vertices of a graph
+* Differs from the minimum spanning tree because the shortest distance between two vertices might not include all the vertices of the graph
+* Works on the logic that any subpath of the shortest path between the source and the destination is also the shortest path.
+
 
 ## Dynamic Programming
 <p align="center">
