@@ -619,6 +619,19 @@
     <a href="#huffman-coding">Huffman Coding</a>
 </p>
 
+### Introduction to Greedy Algorithms
+* Approach for solving a problem by selecting the best option available at the moment - doesn't worry whether the current best result will bring the overall optimal result
+* The algorithm never reverses the earlier decision even if the choice is wrong. It works in a top-down approach.
+ * May not produce the best result for all the problems - always goes for the local best choice to produce the global best result.
+    - Greedy choice property: If an optimal solution to the problem can be found by choosing the best choice at each step without reconsidering the previous steps once chosen
+    - Optimal substructre: If the optimal overall solution to the problem corresponds to the optimal solution to its subproblems, then the problem can be solved using a greedy approach. 
+* Easier to describe and better performance 
+* Algorithm Working - 
+    - In the beginning, the solution set (containing answers) is empty
+    - At each step, an item is added to the solution set until a solution is reached
+    - If the solution set is feasible, the current item is kept
+    - Else, the item is rejected and never considered again
+
 ## Dynamic Programming
 <p align="center">
     <a href="#introduction-to-dynamic-progamming">Introduction to Dynamic Programming</a> •
