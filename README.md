@@ -643,11 +643,20 @@
     - Update the residual graph (Also note reverse-path if required because if we do not consider them, we may never find a maximum flow)
     - If the capacity for any edge is full, then that path cannot be used.
 
-### Dijkstra Algorithm
+### [Dijkstra Algorithm](/Practice%20Concepts/Greedy%20Algorithms/dijkstra.py)
 * Allows us to find the shortest path between any two vertices of a graph
 * Differs from the minimum spanning tree because the shortest distance between two vertices might not include all the vertices of the graph
 * Works on the logic that any subpath of the shortest path between the source and the destination is also the shortest path.
+* Time Complexity: O(ELogV)
+* Space Complexity: O(V)
 
+### [Kruskal Algorithm](/Practice%20Concepts/Greedy%20Algorithms/kruskal.py)
+* A minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph which form a tree that includes every vertex and has the minimum sum of weights among all the trees that can be formed from the graph
+* Start from the edges with the lowest weight and keep adding edges until we reach the goal.
+* Implementation:
+    - Sort all the edges from low weight to high
+    - Take the edge with the lowest weight and add it to the spanning tree. If adding the edge created a cycle, then reject this edge.
+    - Keep adding edges until we reach all vertices
 
 ## Dynamic Programming
 <p align="center">
