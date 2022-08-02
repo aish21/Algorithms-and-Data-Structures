@@ -667,7 +667,20 @@
     - Keep repeating step 2 until we get a minimum spanning tree
 * Time Complexity: O(E log V)
 
-
+### [Huffman Coding](/Practice%20Concepts/Greedy%20Algorithms/huffman.py)
+* A technique of compressing data to reduce its size without losing any of the details
+* Huffman coding first creates a tree using the frequencies of the character and then generates code for each character
+* Huffman Coding prevents any ambiguity in the decoding process using the concept of prefix code - a code associated with a character should not be present in the prefix of any other code. 
+* Implementation:
+    - Calculate the frequency of each character in the string
+    - Sort the characters in increasing order of the frequency. These are stored in a priority queue
+    - Make each unique character as a leaf node
+    - Create an empty node z. Assign the minimum frequency to the left child of z and assign the second minimum frequency to the right child of z. Set the value of the z as the sum of the above two minimum frequencies
+    - Remove these two minimum frequencies from the priority queue and add the sum into the list of frequencies
+    - Insert node z into the tree
+    - For each non-leaf node, assign 0 to the left edge and 1 to the right edge
+* For decoding the code, we can take the code and traverse through the tree to find the character
+* The time complexity for encoding each unique character based on its frequency is O(nlog n)
 
 ## Dynamic Programming
 <p align="center">
