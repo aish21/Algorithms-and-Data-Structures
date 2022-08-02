@@ -689,6 +689,17 @@
     <a href="#longest-common-sequence">Longest Common Sequence</a>
 </p>
 
+### Introduction to Dynamic Programming
+* A technique that efficiently solves a class of problems that have overlapping subproblems and optimal substructure property
+* Efficiency of the CPU can be enhanced
+* Repeatedly calculating the value of the same subproblems to find the optimum solution
+* Works by storing the result of subproblems so that when their solutions are required, they are at hand and we do not need to recalculate them
+* Memoization: THe technique of storing the value of subproblems -  save time for computations of sub-problems we have already come across
+* Dynamic programming by memoization is a top-down approach
+* Dynamic programming is mostly applied to recursive algorithms, but not all problems that use recursion can use Dynamic Programming
+* Greedy Algorithms are similar to dynamic programming in the sense that they are both tools for optimization
+* Greedy algorithms can make a guess that looks optimum at the time but becomes costly down the line and do not guarantee a globally optimum, however Dynamic Programming finds the optimal solution to subproblems and then makes an informed choice to combine the results of those subproblems to find the most optimum solution
+
 ## Other Algorithms
 <p align="center">
     <a href="#backtracking-algorithm">Backtracking Algorithm</a> •
