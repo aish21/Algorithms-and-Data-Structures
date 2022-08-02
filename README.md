@@ -657,6 +657,17 @@
     - Sort all the edges from low weight to high
     - Take the edge with the lowest weight and add it to the spanning tree. If adding the edge created a cycle, then reject this edge.
     - Keep adding edges until we reach all vertices
+* Time Complexity: O(E log E)
+
+### [Prim Algorithm](/Practice%20Concepts/Greedy%20Algorithms/prim.py)
+* A minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph which form a tree that includes every vertex and has the minimum sum of weights among all the trees that can be formed from the graph
+* Implementation:
+    - Initialize the minimum spanning tree with a vertex chosen at random
+    - Find all the edges that connect the tree to new vertices, find the minimum and add it to the tree
+    - Keep repeating step 2 until we get a minimum spanning tree
+* Time Complexity: O(E log V)
+
+
 
 ## Dynamic Programming
 <p align="center">
