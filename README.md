@@ -712,6 +712,15 @@
 * Time Complexity - O(n<sup>3</sup>)
 * Space Complexity - O(n<sup>2</sup>)
 
+### [Longest Common Sequence](/Practice%20Concepts/Dynamic%20Programming/lcs.py)
+* Longest subsequence that is common to all the given sequences, provided that the elements of the subsequence are not required to occupy consecutive positions within the original sequences
+* If S1 and S2 are the two given sequences then, Z is the common subsequence of S1 and S2 if Z is a subsequence of both S1 and S2. Furthermore, Z must be a strictly increasing sequence of the indices of both S1 and S2. 
+* Implementation:
+    - Create a table of dimension n+1*m+1 where n and m are the lengths of X and Y sequences respectively. The first row and the first column are filled with zeros.
+    - If the character correspoding to the current row and current column are matching, then fill the current cell by adding one to the diagonal element. Point an arrow to the diagonal cell
+    - Else take the maximum value from the previous column and previous row element for filling the current cell. Point an arrow to the cell with maximum value. If they are equal, point to any of them
+    - The value in the last row and the last column is the length of the longest common subsequence.
+    - In order to find the longest common subsequence, start from the last element and follow the direction of the arrow. The elements corresponding to diagnonal symbol form the longest common subsequence
 
 ## Other Algorithms
 <p align="center">
