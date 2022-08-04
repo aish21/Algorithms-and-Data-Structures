@@ -728,6 +728,18 @@
     <a href="#rabin-karp-algorithm">Rabin Karp Algorithm</a>
 </p>
 
+### Backtracking Algorithm
+* Problem-solving algorithm that uses a brute force approach for finding the desired output.
+* Backtracking suggests that if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
+* A state space tree is a tree representing all the possible states (solution or nonsolution) of the problem from the root as an initial state to the leaf as a terminal state.
+* Implementation:
+    Backtrack(x)
+    if x is not a solution
+        return false
+    if x is a new solution
+        add to list of solutions
+    backtrack(expand x)
+
 ## Leetcode Explanation
 <p align="center">
     <a href="#easy-problems">Easy Problems</a> •
