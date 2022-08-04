@@ -684,7 +684,7 @@
 
 ## Dynamic Programming
 <p align="center">
-    <a href="#introduction-to-dynamic-progamming">Introduction to Dynamic Programming</a> •
+    <a href="#introduction-to-dynamic-programming">Introduction to Dynamic Programming</a> •
     <a href="#floyd-warshall-algorithm">Floyd Warshall Algorithm</a> •
     <a href="#longest-common-sequence">Longest Common Sequence</a>
 </p>
@@ -699,6 +699,19 @@
 * Dynamic programming is mostly applied to recursive algorithms, but not all problems that use recursion can use Dynamic Programming
 * Greedy Algorithms are similar to dynamic programming in the sense that they are both tools for optimization
 * Greedy algorithms can make a guess that looks optimum at the time but becomes costly down the line and do not guarantee a globally optimum, however Dynamic Programming finds the optimal solution to subproblems and then makes an informed choice to combine the results of those subproblems to find the most optimum solution
+
+### [Floyd Warshall Algorithm](/Practice%20Concepts/Dynamic%20Programming/fw.py)
+* An algorithm for finding the shortest path between all the pairs of vertices in a weighted graph.
+* Works for both the directed and undirected weighted graphs - does not work for the graphs with negative cycles
+* Implementation: 
+    - Create a matrix A0 of dimension n*n where n is the number of vertices.
+    - Each cell A[i][j] is filled with the distance from the ith vertex to the jth vertex. If there is no path from ith vertex to jth vertex, the cell is left as infinity
+    - Create a matrix A1 using matrix A0. The elements in the first column and the first row are left as they are.
+    - Let k be the intermediate vertex in the shortest path from source to destination. In this step, k is the first vertex. A[i][j] is filled with (A[i][k] + A[k][j]) if (A[i][j] > A[i][k] + A[k][j])
+    - Similarly, A2 is created using A1. The elements in the second column and the second row are left as they are.
+* Time Complexity - O(n<sup>3</sup>)
+* Space Complexity - O(n<sup>2</sup>)
+
 
 ## Other Algorithms
 <p align="center">
