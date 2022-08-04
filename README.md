@@ -740,6 +740,21 @@
         add to list of solutions
     backtrack(expand x)
 
+### [Rabin Karp Algorithm](/Practice%20Concepts/Dynamic%20Programming/rk.py)
+* An algorithm used for searching/matching patterns in the text using a hash function.
+* A sequence of characters is taken and checked for the possibility of the presence of the required string. If the possibility is found then, character matching is performed.
+* Implementation - 
+    - Let us assign a numerical value(v)/weight for the characters we will be using in the problem
+    - n be the length of the pattern and m be the length of the text and d be the number of characters in the input set
+    - Calculate the hash value of the pattern
+    - Calculate the hash value for the text-window of size m
+    - Compare the hash value of the pattern with the hash value of the text. If they match then, character-matching is performed.
+    - We calculate the hash value of the next window by subtracting the first term and adding the next term
+* When the hash value of the pattern matches with the hash value of a window of the text but the window is not the actual pattern then it is called a spurious hit - increases the time complexity of the algorithm. In order to minimize spurious hit, we use modulus. It greatly reduces the spurious hit.
+* Time Complexity:
+    - Best, Average: O(m + n)
+    - Worst: O(mn) - when spurious hits occur a number for all the windows
+
 ## Leetcode Explanation
 <p align="center">
     <a href="#easy-problems">Easy Problems</a> •
