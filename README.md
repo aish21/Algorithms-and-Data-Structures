@@ -770,6 +770,18 @@
     - If the value is greater, add to the result (I + I = 2)
     - If the value is lesser, subtract (for IV = 4)
 
+* [1629 - Slowest Key](/Leetcode%20Problems/Easy/1629-Slowest-Key.py)
+    - Concepts: Arrays, Strings
+    - Initialise the max key pressed time as the first value in the key pressed array
+    - Initialise output key as well as calculated key durations
+    - Iterate through the key pressed keys
+    - Initialize outKey = keysPressed[0] for the first iteration
+    - For the remaining iterations, calculate key duration as releaseTimes[i] - releaseTimes[i - 1]
+    - If it is greater than initialised max (or changed), this is the new max
+    - New output key is the the character at the current index position in the loop
+    - If the max durations match, compare the stored output key and the key at the current index position.
+    - The larger value will be lexicographically larger as well, and will be the one to replace the existing value
+
 * [2068 - Check Whether Two Strings are Almost Equivalent](/Leetcode%20Problems/Easy/2068-Check-Whether-Two-Strings-are-Almost-Equivalent.py)
     - Concepts: Strings, Counting
     - Counter is used to create a dictionary of the number of occurances of each character in the string
