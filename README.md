@@ -770,6 +770,13 @@
     - If the value is greater, add to the result (I + I = 2)
     - If the value is lesser, subtract (for IV = 4)
 
+* [2068 - Check Whether Two Strings are Almost Equivalent](/Leetcode%20Problems/Easy/2068-Check-Whether-Two-Strings-are-Almost-Equivalent.py)
+    - Concepts: Strings, Counting
+    - Counter is used to create a dictionary of the number of occurances of each character in the string
+    - Subtraction is used to find the difference in the characters between the 2 strings - differences in occurances of same characters as well as differences if the characters are present in one string and not the other
+    - Union is used to combine all the differences
+    - Check if the differences are <= 3 or < 4
+
 ### [Medium Problems](/Leetcode%20Problems/Medium)
 * [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
     - Concepts: Strings, Stacks
