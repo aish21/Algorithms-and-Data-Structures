@@ -794,6 +794,11 @@
     - Union is used to combine all the differences
     - Check if the differences are <= 3 or < 4
 
+* [2206 - Divide Array Into Equal Pairs](/Leetcode%20Problems/Easy/2206-Divide-Array-Into-Equal-Pairs.py)
+    - Concepts: Arrays
+    - Since pairs need to be formed, if the list contains odd number of any elements, the array cannot be divided into equal parts. 
+    - Hence the count method is used to count number of occurances of that element and if it is odd, we return False
+
 ### [Medium Problems](/Leetcode%20Problems/Medium)
 * [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
     - Concepts: Strings, Stacks
