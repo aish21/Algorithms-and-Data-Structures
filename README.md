@@ -775,6 +775,14 @@
     - If N is odd, alice will lose (no more turns)
     - Else Alice will will (n is even)
 
+* [1370 - Increasing Decreasing String](/Leetcode%20Problems/Easy/1370-Increasing-Decreasing-String.py)
+    - Concepts: Strings
+    - Make a list of all characters in the string and initialise a result array
+    - While the list still has characters, create a temp list of set of the characters
+    - use .sort(key=lambda c: ord(c)) to sort in ascending order
+    - Append this to result and remove from original list
+    - Repeat previous 3 steps but use .sort with flag reverse = True to get decreasing order
+
 * [1629 - Slowest Key](/Leetcode%20Problems/Easy/1629-Slowest-Key.py)
     - Concepts: Arrays, Strings
     - Initialise the max key pressed time as the first value in the key pressed array
