@@ -770,6 +770,11 @@
     - If the value is greater, add to the result (I + I = 2)
     - If the value is lesser, subtract (for IV = 4)
 
+* [1025 - Divisor Game](/Leetcode%20Problems/Easy/1025-Divisor-Game.py)
+    - Concepts: Math, Dynamic Programming
+    - If N is odd, alice will lose (no more turns)
+    - Else Alice will will (n is even)
+
 * [1629 - Slowest Key](/Leetcode%20Problems/Easy/1629-Slowest-Key.py)
     - Concepts: Arrays, Strings
     - Initialise the max key pressed time as the first value in the key pressed array
