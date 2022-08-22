@@ -822,6 +822,14 @@
     - If not, an error message is shown, but, simultaneously, the key with its value is added in the hash-map and the Deque (cache) as the Most Recently Used (MRU) data.
     - If the cache’s size exceeds, the leftmost data element is evicted from the Deque and the hash map.
 
+* [151. Reverse Words in a String](/Leetcode%20Problems/Medium/151-Reverse-Words-in-a-String.py)
+    - Initialise output list
+    - Split string with whitespace
+    - Traverse through the list in reverse order
+    - Check if list item is an extra whitespace (continue), else append to the output list
+    - Join the output list
+    - Current response is O(n)
+
 * [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
     - Concepts: Strings, Stacks
     - Create a stack to keep note of initial paranthesis - (
