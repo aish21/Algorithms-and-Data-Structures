@@ -815,6 +815,13 @@
     - Sort the result
 
 ### [Medium Problems](/Leetcode%20Problems/Medium)
+* [146 - LRU Cache](/Leetcode%20Problems/Medium/146-LRU-Cache.py)
+    - Hash map to traverse the data and deque (cache) to remove an element
+    - A deque is used because it allows us to pop an element very quickly. A list can also work, but the time complexity for a list is O(n), so a deque is preferred. 
+    - get() - Hash map is traversed to check if the key is present in the Deque
+    - If not, an error message is shown, but, simultaneously, the key with its value is added in the hash-map and the Deque (cache) as the Most Recently Used (MRU) data.
+    - If the cache’s size exceeds, the leftmost data element is evicted from the Deque and the hash map.
+
 * [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
     - Concepts: Strings, Stacks
     - Create a stack to keep note of initial paranthesis - (
