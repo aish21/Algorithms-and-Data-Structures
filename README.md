@@ -770,6 +770,12 @@
     - If the value is greater, add to the result (I + I = 2)
     - If the value is lesser, subtract (for IV = 4)
 
+* [459. Repeated Substring Pattern](/Leetcode%20Problems/Easy/459-Repeated-Substring-Pattern.py)
+    - The substring is repeated at least once
+    - Start traversing, first find the number I divisible by n.
+    - When I is found, I is the length of the substring at this time.
+    - At this time, it is determined whether the substring can repeat several times to form a given string
+
 * [1025 - Divisor Game](/Leetcode%20Problems/Easy/1025-Divisor-Game.py)
     - Concepts: Math, Dynamic Programming
     - If N is odd, alice will lose (no more turns)
@@ -828,7 +834,6 @@
     - Traverse through the list in reverse order
     - Check if list item is an extra whitespace (continue), else append to the output list
     - Join the output list
-    - Current response is O(n)
 
 * [1249 - Minimum Remove to Make Valid Parentheses](/Leetcode%20Problems/Medium/1249-Minimum-Remove-to-Make-Valid-Parentheses.py)
     - Concepts: Strings, Stacks
