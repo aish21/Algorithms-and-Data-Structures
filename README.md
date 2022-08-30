@@ -774,6 +774,12 @@
     - If it does, return the index of the difference (which is in the hashmap) and the current index of the number in the array
     - If the difference is not there, put the current number as well as its index in the hashmap.
 
+* [9 - Palindrome Number](/Leetcode%20Problems/Easy/9-Palindrome-Number.py)
+    - Concepts: Math
+    - First solution is pretty straightforward - convert the int to string, reverse it using [::-1] and compare and return the result
+    - Second solution is based on the condition that the number cannot be converted to string. If the number is negative, it cannot be a palindrome (condition 1). Store input in another variable. For every digit in the temp variable, reverse the number by multiplying by 10 + number mod of 10. Go to the next digit by floor division of the temp variable. Compare this reversed number with original input.
+    - Time Complexity: O(lg(n))
+
 * [13 - Roman to Integer](/Leetcode%20Problems/Easy/13-Roman-to-Integer.py)
     - Concepts: Strings, Maps
     - Need to create a dictionary to map the symbols to the values
