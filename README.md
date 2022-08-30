@@ -787,6 +787,9 @@
     - If the value is greater, add to the result (I + I = 2)
     - If the value is lesser, subtract (for IV = 4)
 
+* [14 - Longest Common Prefix](/Leetcode%20Problems/Easy/14-Longest-Common-Prefix.py)
+    - 
+
 * [459. Repeated Substring Pattern](/Leetcode%20Problems/Easy/459-Repeated-Substring-Pattern.py)
     - The substring is repeated at least once
     - Start traversing, first find the number I divisible by n.
