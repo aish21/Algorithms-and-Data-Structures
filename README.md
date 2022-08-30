@@ -763,6 +763,17 @@
 </p>
 
 ### [Easy Problems](/Leetcode%20Problems/Easy)
+* [1 - Two Sum](/Leetcode%20Problems/Easy/1-Two-Sum.py)
+    - Concepts: Arrays, Hash Tables
+    - Classic interview question: one of the most frequently asked ones
+    - Easiest method is to use two loops, however time complexity is bad (O(n<sup>2</sup>))
+    - The problem can be solved in O(n) time using hash maps
+    - Create a dictionary/hash map to store results
+    - Loop through all the nums in the array
+    - Check if the hash map contains the difference between the target sum and the current number in the array.
+    - If it does, return the index of the difference (which is in the hashmap) and the current index of the number in the array
+    - If the difference is not there, put the current number as well as its index in the hashmap.
+
 * [13 - Roman to Integer](/Leetcode%20Problems/Easy/13-Roman-to-Integer.py)
     - Concepts: Strings, Maps
     - Need to create a dictionary to map the symbols to the values
