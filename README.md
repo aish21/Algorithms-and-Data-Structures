@@ -801,6 +801,13 @@
     - If N is odd, alice will lose (no more turns)
     - Else Alice will will (n is even)
 
+* [1207 - Unique Number of Occurances](/Leetcode%20Problems/Easy/1207-Unique-Number-of-Occurrences.py)
+    - Concepts: Array, Hash Table
+    - Use Counter method to find all the unique values in the array
+    - Create an empty set for storing the values of the number of occurances
+    - Iterate through all the values of the dictionary and check if the value is present in the set
+    - If present, return False, else add the value to the set and continue for all other elements.
+
 * [1370 - Increasing Decreasing String](/Leetcode%20Problems/Easy/1370-Increasing-Decreasing-String.py)
     - Concepts: Strings
     - Make a list of all characters in the string and initialise a result array
