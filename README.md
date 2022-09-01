@@ -863,4 +863,13 @@
     - Result is all the values except the combined index values
     
 ### [Hard Problems](/Leetcode%20Problems/Hard)
-* []
+* [10 - Regular Expression Matching](/Leetcode%20Problems/Hard/10-Regular-Expression-Matching.py)
+    - Concepts: Strings, Dynamic Programming, Recursion
+    - Use of python library: re
+    - Compile the pattern with re.compile 
+    - Compare with input string s (full match)
+    - Question becomes easy with the use of regular expression matching function in python
+
+* [44 - Wildcard Matching](/Leetcode%20Problems/Hard/44-Wildcard-Matching.py)
+    - Concepts: String, Dynamic Programming, Recursion, Greedy
+    - 
