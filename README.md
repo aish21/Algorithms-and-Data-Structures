@@ -790,7 +790,21 @@
 * [14 - Longest Common Prefix](/Leetcode%20Problems/Easy/14-Longest-Common-Prefix.py)
     - 
 
-* [459. Repeated Substring Pattern](/Leetcode%20Problems/Easy/459-Repeated-Substring-Pattern.py)
+* [346 - Moving Average from Data Stream](/Leetcode%20Problems/Easy/346-Moving-Average-from-Data-Stream.py)
+    - Concepts: Arrays, Design, Queue
+    - Initialize queue and other variables
+    - If the length of the queue is less than the window size, append to the queue and calcualte the average
+    - Else subtract the first element in the queue from the running total and remove the element from the queue.
+    - Add the new element and calculate the average.
+
+* [359 - Logger Rate Limiter](/Leetcode%20Problems/Easy/359-Logger-Rate-Limiter.py)
+    - Concepts: Hash Maps, Design
+    - Initialise a hash map
+    - If the message is not in the map or if the message + 10 is less than the timestamp, then add it to the dictionary
+    - Return True 
+    - Else return false
+
+* [459 - Repeated Substring Pattern](/Leetcode%20Problems/Easy/459-Repeated-Substring-Pattern.py)
     - The substring is repeated at least once
     - Start traversing, first find the number I divisible by n.
     - When I is found, I is the length of the substring at this time.
