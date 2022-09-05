@@ -788,7 +788,7 @@
     - If the value is lesser, subtract (for IV = 4)
 
 * [14 - Longest Common Prefix](/Leetcode%20Problems/Easy/14-Longest-Common-Prefix.py)
-    - 
+    - Concepts: 
 
 * [346 - Moving Average from Data Stream](/Leetcode%20Problems/Easy/346-Moving-Average-from-Data-Stream.py)
     - Concepts: Arrays, Design, Queue
