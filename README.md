@@ -797,6 +797,10 @@
     - Run another loop across all other strings and compare characters
     - Compare characters and add to output until a different character is found
 
+* [20 - Valid Parentheses](/Leetcode%20Problems/Easy/20-Valid-Parentheses.py)
+    - Concepts: String, Stack
+    - 
+
 * [346 - Moving Average from Data Stream](/Leetcode%20Problems/Easy/346-Moving-Average-from-Data-Stream.py)
     - Concepts: Arrays, Design, Queue
     - Initialize queue and other variables
