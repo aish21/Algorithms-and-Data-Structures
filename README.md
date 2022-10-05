@@ -788,7 +788,14 @@
     - If the value is lesser, subtract (for IV = 4)
 
 * [14 - Longest Common Prefix](/Leetcode%20Problems/Easy/14-Longest-Common-Prefix.py)
-    - Concepts: 
+    - Concepts: Strings
+    - Initialize output as empty string - if list is empty, return ""
+    - First element in the list: set as minimum length 
+    - Run a loop through remaining elements and use min function to find string with minimum length
+    - Run a loop through the found minimum length (outer loop)
+    - Take the first character of the string in outer loop
+    - Run another loop across all other strings and compare characters
+    - Compare characters and add to output until a different character is found
 
 * [346 - Moving Average from Data Stream](/Leetcode%20Problems/Easy/346-Moving-Average-from-Data-Stream.py)
     - Concepts: Arrays, Design, Queue
