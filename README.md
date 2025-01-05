@@ -122,7 +122,7 @@
     - Space: O(n)
     - Time Complexities (Enqueue, Dequeue, Peek): O(1)
 
-  - Priority Queue (TODO)
+  - [Priority Queue](/Practice%20Concepts/Data%20Structures/priority_q.py)
 
     - Each element is linked with a priority value - served on the basis of their priority.
     - If elements have the same priority, they are then served according to their order in the queue.
@@ -131,7 +131,7 @@
     - Space: O(n)
     - Time Complexities (Enqueue, Dequeue, Peek): O(logn), O(1)
 
-  - Deque (Double Ended Queues)
+  - [Deque (Double Ended Queues)](/Practice%20Concepts/Data%20Structures/dequeue.py)
     - Flexible, allowing addition and removal from both ends.
     - Space: O(n)
     - Time Complexities (Enqueue, Dequeue, Peek): O(1)
