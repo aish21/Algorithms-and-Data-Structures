@@ -83,50 +83,58 @@
   - Does not support random access by index like lists
   - More complex implementation
 
-* Lists are sufficient for most stack use cases unless you need guaranteed 𝑂(1) for all operations, in which case a deque is better.
+* Lists are sufficient for most stack use cases unless you need guaranteed 𝑂(1) for all operations, in which case a deque is better. Space complexity: O(n)
 
 ### [Queues](/Practice%20Concepts/Data%20Structures/Queue.py)
 
 - Linear data structure that follows FIFO - First In First Out rule - the item that goes in first comes out first
-- Putting items in queue is known as enqueue and removing items from queue is known as dequeue.
 
 ![](https://github.com/aish21/Algorithms-and-Data-Structures/blob/main/Resources/Animations/enq-dq.png)
 
-- ENQUEUE: Add an element at the end of the queue
-- DEQUEUE: Remove an element from the front of the queue
-- IsEmpty: Check if the queue is empty
-- IsFull: Check if the queue is full
-- PEEK: Check the value of the first element in the queue without removing it
-- Queue Operations -
-  - Pointer variables: FRONT and REAR (first element and last element tracked respectively)
-  - Initially both values are -1
-  - ENQUEUE - Check if the queue is full, for first value, set FRONT = 0, increment REAR by 1, add the element pointed to by the REAR pointer
-  - DEQUEUE - Check if the queue is empty, return the value pointed by FRONT, increment FRONT by 1, for final value, reset FRONT and REAR to -1.
-- Limitations: We can only add to index 0 after all the elements have been dequeued (see circular queue)
-- ENQUEUE and DEQUEUE operations take constant time - O(1). pop(N) in python may take O(n) depending on the position of the item to be popped.
-- Applications: CPU Scheduling, File System buffers, interrupts in real time systems.
+- KEY CONCEPTS:
+
+  - ENQUEUE: Add an element to the end of the queue
+  - DEQUEUE: Remove and return an element from the front of the queue
+  - PEEK: Check the value of the first element in the queue without removing it
+  - IsEmpty: Check if the queue is empty
+  - IsFull: Check if the queue is full
+  - FRONT: The end of the queue from which the elements are removed
+  - REAR: The end of the queue from which the elements are added
+
+- Applications: CPU Scheduling, File System buffers, interrupts in real time systems
 
 - Types of Queues:
 
+  - [Simple Queue](/Practice%20Concepts/Data%20Structures/Queue.py)
+
+    - Standard FIFO queue
+    - Space: O(n)
+    - Time Complexities (Enqueue, Dequeue, Peek): O(1)
+
   - [Circular Queue](/Practice%20Concepts/Data%20Structures/CircularQ.py)
 
-    - Like regular queue, but the last element is connected to the first element, solving the limitation stated earlier (non-usable empty space).
+    - Like regular queue, but the last element is connected to the first element, solving the limitation of non-usable empty space.
     - Works in the process of circular increment - modulo division with the queue size
     - Same initialization of FRONT and REAR pointer variables
     - ENQUEUE: FRONT is set to 0, REAR is circularly incremented by 1, if it reaches the end, it would be at the start of the queue, then add to the position pointed to by REAR.
     - DEQUEUE: Return value pointed by FRONT, circularly increase FRONT by 1, for last element, reset the FRONT and REAR values to -1
     - IsFull conditions: FRONT == 0 && REAR == SIZE - 1, FRONT = REAR + 1
-    - Complexity: O(1)
+    - Space: O(n)
+    - Time Complexities (Enqueue, Dequeue, Peek): O(1)
 
   - Priority Queue (TODO)
 
     - Each element is linked with a priority value - served on the basis of their priority.
     - If elements have the same priority, they are then served according to their order in the queue.
+    - Implemented using binary heaps (heapq in Python).
     - Does not follow FIFO - follows rule of priority
-    - Implemented using binary heap (refer to heap below)
+    - Space: O(n)
+    - Time Complexities (Enqueue, Dequeue, Peek): O(logn), O(1)
 
   - Deque (Double Ended Queues)
-    - TODO
+    - Flexible, allowing addition and removal from both ends.
+    - Space: O(n)
+    - Time Complexities (Enqueue, Dequeue, Peek): O(1)
 
 ### [Linked List](/Practice%20Concepts/Data%20Structures/singly-linked-list.py)
 

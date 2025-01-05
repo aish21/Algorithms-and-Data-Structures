@@ -1,34 +1,45 @@
-# Python implementation of Queues
+# Python implementation of a simple queue
+
+from collections import deque
 
 class Queue:
 
     def __init__(self):
-        self.queue = []
+        self.queue = deque()
     
-    # ENQUEUE
-    def ENQUEUE(self, value):
+    def enqueue(self, value):
         self.queue.append(value)
     
-    # DEQUEUE
-    def DEQUEUE(self):
-        if(len(self.queue) < 1):
-            return "Queue is empty"
-        else:
-            self.queue.pop(0)
+    def dequeue(self):
+        if not self.isEmpty():
+            return self.queue.popleft() # Remove and return the first element
+        raise IndexError('Queue is empty')
     
-    # Display
-    def disp(self):
-        print(self.queue)
+    def isEmpty(self):
+        return len(self.queue) == 0
+    
+    def front(self):
+        if not self.isEmpty():
+            return self.queue[0] # Return the FRONT of the queue without removing it
+        raise IndexError('Queue is empty')
+    
+    def rear(self):
+        if not self.isEmpty():
+            return self.queue[-1] # Return the REAR of the queue without removing it
+        raise IndexError('Queue is empty')
 
-# Driver code
-q = Queue()
-q.ENQUEUE(1)
-q.ENQUEUE(2)
-q.ENQUEUE(3)
-q.ENQUEUE(4)
-q.ENQUEUE(5)
-print('After ENQUEUE - ')
-q.disp()
-q.DEQUEUE()
-print('After DEQUEUE - ')
-q.disp()
+# Test Cases
+queue = Queue()
+queue.enqueue(1)
+queue.enqueue(2)
+queue.enqueue(3)
+assert queue.front() == 1
+assert queue.rear() == 3
+assert queue.dequeue() == 1
+assert queue.front() == 2
+assert queue.rear() == 3
+assert queue.dequeue() == 2
+assert queue.front() == 3
+assert queue.rear() == 3
+assert queue.dequeue() == 3
+assert queue.isEmpty() == True
