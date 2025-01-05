@@ -1,32 +1,69 @@
-# Python implementation of stacks 
+# Python implementations of stacks - List-based implementation and Deque-based implementation 
 
-# Create a Stack
-def create_stack():
-    stack = []
-    return stack
+class ListBasedStack:
+    def __init__(self):
+        self.stack = []
+    
+    def push(self, item):
+        self.stack.append(item)
+    
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        raise IndexError("pop from empty stack")
+    
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        raise IndexError("peek from empty stack")
+    
+    def is_empty(self):
+        return len(self.stack) == 0
+    
 
-# Check if the stack is empty
-def IsEmpty(stack):
-    return len(stack) == 0
+from collections import deque
 
-# PUSH operation
-def PUSH(stack, value):
-    stack.append(value)
-    print('Pushed - ' + value)
+class DequeBasedStack:
+    def __init__(self):
+        self.stack = deque()
+    
+    def push(self, item):
+        self.stack.append(item)
+    
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        raise IndexError("pop from empty stack")
+    
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        raise IndexError("peek from empty stack")
+    
+    def is_empty(self):
+        return len(self.stack) == 0
 
-# POP operation
-def POP(stack):
-    if(IsEmpty(stack)):
-        return "Stack is empty"
-    return stack.pop()
+# Test cases
+stack = ListBasedStack()
+stack.push(1)
+stack.push(2)
+stack.push(3)
+assert stack.peek() == 3
+assert stack.pop() == 3
+assert stack.peek() == 2
+assert stack.pop() == 2
+assert stack.peek() == 1
+assert stack.pop() == 1
+assert stack.is_empty() == True
 
-# Driver code
-stack = create_stack()
-print("Empty Stack - " + str(stack))
-PUSH(stack, str(1))
-PUSH(stack, str(10))
-PUSH(stack, str(100))
-PUSH(stack, str(1000))
-print("After PUSH - " + str(stack))
-print("Popped - " + POP(stack))
-print('Resultant Stack - ' + str(stack))
+stack = DequeBasedStack()
+stack.push(1)
+stack.push(2)
+stack.push(3)
+assert stack.peek() == 3
+assert stack.pop() == 3
+assert stack.peek() == 2
+assert stack.pop() == 2
+assert stack.peek() == 1
+assert stack.pop() == 1
+assert stack.is_empty() == True
